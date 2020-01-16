@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">NetmaniaLocationChecker</string>
+    <string name="permission_location">위치 관련 권한을 설정하지 않으시면 기능을 100%사용 하실 수 없습니다. 해당권한은 [설정] > [권한]에서 다시 허용하실 수 있습니다</string>
+</resources>

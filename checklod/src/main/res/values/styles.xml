@@ -1,0 +1,259 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+
+
+
+
+    <!-- 토스팅 -->
+    <style name="toast_text">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <!-- CheckLOD Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Material.Light" tools:targetApi="lollipop">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:actionMenuTextColor">@color/white</item>
+        <item name="android:titleTextStyle">@style/version_text_style</item>
+        <item name="android:statusBarColor">@color/colorPrimary</item>
+        <item name="android:actionBarTheme">@style/ThisActionBar</item>
+    </style>
+
+    <style name="AppCompatAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/colorPrimaryDark</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+
+
+    <style name="ThisActionBar" parent="@style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="titleTextStyle">@style/version_text_style</item>
+        <item name="subtitleTextStyle">@style/version_text_style</item>
+    </style>
+
+
+    <!-- 액션바 관련 테마 -->
+    <style name="Widget.Holo.Light.ActionBar.Solid.Inverse" parent="android:Widget.Holo.Light.ActionBar.Solid.Inverse" />
+
+
+    <!-- 액션바 타이틀 텍스트 스타일 -->
+    <style name="version_text_style">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+
+    <!-- 버튼라벨 -->
+    <style name="job_ready_btn_job_start_text">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <style name="info_text_1">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+
+    <!-- 업무준비단계 프로필 이름 -->
+    <style name="job_ready_profile_name_text">
+        <item name="android:textColor">@color/label_font_color_1</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+
+    <!-- 업무준비단계 인사 -->
+    <style name="job_ready_hello_text">
+        <item name="android:textColor">@color/description_font_color_2</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- 업무준비단계 제목 -->
+    <style name="job_ready_info_text">
+        <item name="android:textColor">@color/description_font_color_2</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <!-- 시스템 리포트 항목 텍스트 -->
+    <style name="job_ready_system_report_desc">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="job_ready_system_report_desc_small">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="job_ready_system_report_warnning">
+        <item name="android:textColor">@color/warnning_red</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="no_item_desc_text">
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+
+
+
+    <style name="label_for_dialog_1">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+
+    <style name="lable_for_dialog_button">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="input_for_dialog">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+
+
+
+    <!-- job delivery list item -->
+    <style name="job_delivery_beacon_sticker_text">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    lable_for_dialog_button
+    <style name="job_delivery_temperature_range_text">
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="job_delivery_order_no_text">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="job_delivery_box_serial_text">
+        <item name="android:textColor">#ffcb64</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="job_delivery_time_text">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="job_delivery_temperature_text">
+        <item name="android:textSize">60sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/steady_text_color</item>
+    </style>
+
+    <style name="job_delivery_max_text">
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="job_delivery_min_text">
+        <item name="android:textColor">@color/min_temp_color</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="job_delivery_state_desc">
+        <item name="android:textColor">@color/dark_gray</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="btn_ios_style_text">
+        <item name="android:textColor">@drawable/btn_ios_style_label</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="btn_ios_style_p_text">
+        <item name="android:textColor">@drawable/btn_ios_style_p_label</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+
+    <style name="job_delivery_beacon_seq_text">
+        <item name="android:textSize">8sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffe560</item>
+        <item name="android:background">#450000</item>
+    </style>
+
+    <!-- job report -->
+    <style name="temerature_history_date">
+        <item name="android:textColor">#999999</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="job_report_delivery_duration">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- job delivery list item -->
+
+
+    <style name="job_delivery_maxmin_text">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+
+    <style name="ktx_info_text_001_style">
+        <item name="android:textColor">@color/dark_gray</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+
+
+
+    <style name="label_for_photo_comp_add_photo">
+        <item name="android:textColor">@color/dark_gray</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+
+
+    <style name="label_for_photo_comp_photo">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>

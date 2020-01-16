@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+    <ListView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/rdo_report_term"
+        android:layout_above="@+id/thumbzone_asset"
+        android:cacheColorHint="@null"
+        android:divider="@null"
+        android:scrollbars="vertical"
+        android:overScrollMode="ifContentScrolls"
+        android:fadingEdge="none"
+        android:background="@color/white" />
+
+
+    <FrameLayout
+        android:id="@+id/inc_report_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rdo_report_term">
+
+        <include layout="@layout/layout_inc_report" />
+
+    </FrameLayout>
+
+    <RadioGroup
+        android:id="@+id/rdo_report_term"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rdo_btn_30s"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/job_ready_rod_color"
+            android:textColor="@color/job_ready_rod_color"
+            android:textSize="12sp"
+            android:text="@string/label_rdo_report_term_30sec"
+            android:visibility="gone"/>
+
+        <RadioButton
+            android:id="@+id/rdo_btn_1m"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:buttonTint="@color/job_ready_rod_color"
+            android:textColor="@color/job_ready_rod_color"
+            android:textSize="12sp"
+            android:text="@string/label_rdo_report_term_1min"
+            android:visibility="visible"/>
+
+        <RadioButton
+            android:id="@+id/rdo_btn_5m"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:buttonTint="@color/job_ready_rod_color"
+            android:textColor="@color/job_ready_rod_color"
+            android:textSize="12sp"
+            android:text="@string/label_rdo_report_term_5min"
+            android:checked="true"/>
+
+        <RadioButton
+            android:id="@+id/rdo_btn_10m"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:buttonTint="@color/job_ready_rod_color"
+            android:textColor="@color/job_ready_rod_color"
+            android:textSize="12sp"
+            android:text="@string/label_rdo_report_term_10min"/>
+
+        <RadioButton
+            android:id="@+id/rdo_btn_15m"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:buttonTint="@color/job_ready_rod_color"
+            android:textColor="@color/job_ready_rod_color"
+            android:textSize="12sp"
+            android:text="@string/label_rdo_report_term_15min"/>
+
+        <RadioButton
+            android:id="@+id/rdo_btn_30m"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:buttonTint="@color/job_ready_rod_color"
+            android:textColor="@color/job_ready_rod_color"
+            android:textSize="12sp"
+            android:text="@string/label_rdo_report_term_30min"
+            android:visibility="gone"/>
+
+    </RadioGroup>
+
+
+    <LinearLayout
+        android:id="@+id/thumbzone_asset"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/thumbnail_zone_height"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/progressGo"
+        android:layout_toEndOf="@+id/progressGo">
+
+
+        <com.balysv.materialripple.MaterialRippleLayout
+            android:id="@+id/btn_job_finish_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimary"
+            app:mrl_rippleOverlay="true"
+            app:mrl_rippleColor="@color/colorPrimaryDark"
+            app:mrl_rippleAlpha="0.2"
+            app:mrl_rippleDelayClick="false"
+            app:mrl_rippleHover="true">
+
+            <Button
+                android:id="@+id/btn_job_finish"
+                style="@style/job_ready_btn_job_start_text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/transparent"
+                android:layout_gravity="center"
+                android:text="@string/delivery_state_btn_finish"/>
+
+        </com.balysv.materialripple.MaterialRippleLayout>
+
+
+        <!-- com.balysv.materialripple.MaterialRippleLayout
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#8f0000"
+            app:mrl_rippleOverlay="true"
+            app:mrl_rippleColor="#5e0000"
+            app:mrl_rippleAlpha="0.2"
+            app:mrl_rippleDelayClick="false"
+            app:mrl_rippleHover="true">
+
+            <ImageButton
+                android:id="@+id/btn_device_add"
+                style="@style/job_ready_btn_job_start_text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/transparent"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_add_white_30"/>
+
+        </com.balysv.materialripple.MaterialRippleLayout -->
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/progressGo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transparent_black_dark"
+        android:onClick="onClick"
+        android:visibility="gone">
+
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"/>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

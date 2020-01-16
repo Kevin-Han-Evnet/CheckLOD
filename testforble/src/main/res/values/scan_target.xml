@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="scan_target">
+
+        <!-- 신형 -->
+        <!-- item>C5:08:53:58:A0:26</item -->
+        <item>C4:46:AB:DA:FC:BB</item>
+        <item>E4:8F:54:D7:F3:DB</item>
+        <item>CF:29:06:E3:75:9F</item>
+
+
+        <!-- 구형 -->
+        <!-- item>EF:A2:53:27:CD:97</item -->
+        <!-- item>EB:29:55:02:94:51</item -->
+        <!-- item>DE:71:C0:C7:1A:FD</item -->
+
+        <!-- MIDASCON -->
+        <!-- item>74:F0:7D:CE:53:0C</item -->
+        <!-- item>74:F0:7D:CE:53:B4</item -->
+        <!-- item>74:F0:7D:CE:54:1C</item -->
+        <!-- item>74:F0:7D:CE:4E:15</item -->
+
+        <!-- 최신형 -->
+        <item>F7:D8:79:14:55:8D</item>
+
+    </string-array>
+
+</resources>

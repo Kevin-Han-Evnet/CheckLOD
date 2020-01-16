@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/general_bgcolor">
+
+
+    <FrameLayout
+        android:id="@+id/title_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/list_header_bg"
+        android:elevation="2dp"
+        android:padding="15dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical">
+
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="15dp">
+
+                <TextView
+                    android:id="@+id/profile_name"
+                    style="@style/job_ready_profile_name_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:shadowColor="#FF000000"
+                    android:shadowDx="2.0"
+                    android:shadowDy="2.0"
+                    android:shadowRadius="2.0"
+                    android:text="홍길동 님" />
+
+                <TextView
+                    style="@style/job_ready_hello_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@id/profile_name"
+                    android:layout_marginLeft="6dp"
+                    android:layout_toRightOf="@id/profile_name"
+                    android:textSize="10sp"
+                    android:shadowColor="#FF000000"
+                    android:shadowDx="2.0"
+                    android:shadowDy="2.0"
+                    android:shadowRadius="2.0"
+                    android:text="@string/job_ready_hello" />
+
+                <TextView
+                    style="@style/job_ready_info_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/profile_name"
+                    android:layout_marginTop="6dp"
+                    android:shadowColor="#FF000000"
+                    android:textSize="10sp"
+                    android:shadowDx="2.0"
+                    android:shadowDy="2.0"
+                    android:shadowRadius="2.0"
+                    android:text="@string/job_ready_info" />
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|right"
+            android:gravity="right"
+            android:orientation="vertical">
+            
+            <TextView
+                style="@style/job_ready_info_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:shadowColor="#FF000000"
+                android:shadowDx="2.0"
+                android:shadowDy="2.0"
+                android:shadowRadius="2.0"
+                android:text="@string/vehicle_no"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:id="@+id/profile_vehicle_no"
+                style="@style/job_ready_info_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:shadowColor="#FF000000"
+                android:shadowDx="2.0"
+                android:shadowDy="2.0"
+                android:shadowRadius="2.0"
+                android:text="8823"
+                android:textSize="16sp"/>
+            
+        </LinearLayout>
+
+    </FrameLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="top"
+        android:orientation="vertical"
+        android:layout_marginBottom="5dp"
+        android:elevation="2dp"
+        android:padding="10dp">
+
+        <TextView
+            style="@style/Base.AlertDialog.AppCompat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_system_report_18"
+            android:drawablePadding="3dp"
+            android:text="@string/system_report" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <LinearLayout
+                android:layout_width="0px"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/network_status_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_wifi_on"
+                    android:tint="@color/colorPrimary" />
+
+                <TextView
+                    android:id="@+id/network_status_desc"
+                    style="@style/job_ready_system_report_desc_small"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="WIFI" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0px"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/battery_status_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_battery_80"
+                    android:tint="@color/colorPrimary" />
+
+                <TextView
+                    android:id="@+id/battery_status_desc"
+                    style="@style/job_ready_system_report_desc_small"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="80% 남음" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0px"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/memory_status_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_memory"
+                    android:tint="@color/colorPrimary" />
+
+                <TextView
+                    android:id="@+id/memory_status_desc"
+                    style="@style/job_ready_system_report_desc_small"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="45% 사용" />
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0px"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/storage_status_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_storage"
+                    android:tint="@color/colorPrimary" />
+
+                <TextView
+                    android:id="@+id/storage_status_desc"
+                    style="@style/job_ready_system_report_desc_small"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0.8GB 남음" />
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/system_warnning_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_warning"
+                android:tint="@color/warnning_red"/>
+
+            <TextView
+                android:id="@+id/system_warnning_msg"
+                style="@style/job_ready_system_report_warnning"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:drawableTint="@color/warnning_red"
+                android:gravity="center_vertical"
+                android:text="@string/msg_warnning_wifi"
+                android:visibility="visible"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 내뷰 테스트용 -->
+    <string-array name="temperature_range_asset">
+
+        <item>테스트 (20℃~30℃),20,30</item>
+        <item>실온 (1℃~30℃),1,30</item>
+        <item>상온 (15℃~25℃),15,25</item>
+        <item>냉장 (2℃~8℃),2,8</item>
+        <item>냉동 (-70℃ 이하),-1000,-70</item>
+        <item>초저온 (-120℃ 이하),-1000,-120</item>
+
+    </string-array>
+
+</resources>

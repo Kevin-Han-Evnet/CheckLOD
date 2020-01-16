@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/contents"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include android:id="@+id/item_0" layout="@layout/item_scan_target" android:visibility="gone" />
+            <include android:id="@+id/item_1" layout="@layout/item_scan_target" android:visibility="gone" />
+            <include android:id="@+id/item_2" layout="@layout/item_scan_target" android:visibility="gone" />
+            <include android:id="@+id/item_3" layout="@layout/item_scan_target" android:visibility="gone" />
+            <include android:id="@+id/item_4" layout="@layout/item_scan_target" android:visibility="gone" />
+            <include android:id="@+id/item_5" layout="@layout/item_scan_target" android:visibility="gone" />
+            <include android:id="@+id/item_6" layout="@layout/item_scan_target" android:visibility="gone" />
+            <include android:id="@+id/item_7" layout="@layout/item_scan_target" android:visibility="gone"/>
+            <include android:id="@+id/item_8" layout="@layout/item_scan_target" android:visibility="gone"/>
+            <include android:id="@+id/item_9" layout="@layout/item_scan_target" android:visibility="gone" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <Button
+                    android:id="@+id/btn_start_all"
+                    android:layout_width="0px"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="15dp"
+                    android:text="전체 시작"/>
+
+                <Button
+                    android:id="@+id/btn_finish_all"
+                    android:layout_width="0px"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginRight="15dp"
+                    android:text="전체 종료"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <Button
+                    android:id="@+id/btn_show_system_log"
+                    android:layout_width="0px"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="15dp"
+                    android:text="시스템 로그 보기"/>
+
+                <Button
+                    android:id="@+id/btn_delete_system_log"
+                    android:layout_width="0px"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginRight="15dp"
+                    android:text="시스템 로그 삭제"/>
+
+            </LinearLayout>
+
+
+
+            <Button
+                android:id="@+id/btn_delete_data_all"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:backgroundTint="@color/colorAccent"
+                android:textColor="@color/white"
+                android:text="전체 데이타 삭제"/>
+
+            <Button
+                android:id="@+id/btn_add_item"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:backgroundTint="@color/colorAccent"
+                android:text="로거 추가"
+                android:textColor="@color/white"
+                android:visibility="gone"/>
+
+
+            <Button
+                android:id="@+id/btn_show_app_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:text="어플리케이션 정보"/>
+
+
+            <ToggleButton
+                android:id="@+id/btn_start_again_with_scanfilter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:backgroundTint="@color/colorAccent"
+                android:text="스캔필터 추가"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

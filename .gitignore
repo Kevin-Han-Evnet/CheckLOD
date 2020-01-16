@@ -1,0 +1,8 @@
+# Project exclude paths
+/.gradle/
+/checklod/build/
+/CheckLOD-M/build/
+/datacontroller/build/
+/nm_ble/build/
+/nm_dcamera/build/
+/nm_location/build/

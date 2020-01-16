@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="title_for_type_choice">please select a type of document</string>
+    <string-array name="document_types">
+        <item>A,invoice</item>
+        <item>B,proof of delivery</item>
+        <item>Z,others</item>
+    </string-array>
+
+</resources>

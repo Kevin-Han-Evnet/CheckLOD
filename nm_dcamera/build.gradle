@@ -1,0 +1,53 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion '28.0.3'
+
+    defaultConfig {
+        minSdkVersion 15
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+buildscript {
+    repositories {
+        jcenter()
+        google()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.5.0'
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+    }
+}
+
+
+dependencies {
+
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile 'com.android.support:appcompat-v7:25.1.1'
+    testCompile 'junit:junit:4.12'
+
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    compile 'com.squareup.okhttp:okhttp:2.7.5'
+    compile 'com.squareup.okio:okio:1.4.0'
+    compile 'com.github.chrisbanes.photoview:library:1.2.3'
+}

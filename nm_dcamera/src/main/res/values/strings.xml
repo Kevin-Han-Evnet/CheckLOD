@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">Cropper</string>
+    <string name="btn_label_confirm">Ok</string>
+    <string name="btn_label_cancel">Cancel</string>
+    <string name="btn_bale_upload">Upload</string>
+
+</resources>

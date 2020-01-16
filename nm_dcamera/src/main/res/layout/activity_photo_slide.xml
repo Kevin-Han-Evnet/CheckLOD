@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EE000000">
+
+    <include
+        android:id="@+id/top_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/inc_image_attach_header" />
+
+    <lib.netmania.dcamera.view.ViePagerFixed
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/top_container"/>
+
+
+    <LinearLayout
+        android:id="@+id/fragment_photo_menu_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:padding="15dp"
+        android:orientation="vertical"
+        android:layout_gravity="bottom"
+        android:visibility="invisible"
+        android:background="#77000000">
+
+        <Button
+            android:id="@+id/fragment_photo_btn_download"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#142261"
+            android:text="갤러리에 저장"/>
+
+        <Button
+            android:id="@+id/fragment_photo_btn_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#142261"
+            android:text="취소" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="15dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

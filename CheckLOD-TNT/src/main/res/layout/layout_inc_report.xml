@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingBottom="15dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/delivery_duration_field"
+            style="@style/job_report_delivery_duration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:background="@mipmap/item_label_bg"
+            android:backgroundTint="@color/light_gray"
+            android:text="@string/info_delivery_duration"/>
+
+        <TextView
+            android:id="@+id/item_max_temperature"
+            style="@style/job_delivery_maxmin_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:paddingLeft="5dp"
+            android:paddingTop="2dp"
+            android:paddingRight="5dp"
+            android:paddingBottom="2dp"
+            android:background="@mipmap/item_label_bg"
+            android:backgroundTint="@color/colorAccent"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:text="@string/job_delivery_temp_max_format"/>
+
+        <TextView
+            android:id="@+id/item_min_temperature"
+            style="@style/job_delivery_maxmin_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:paddingLeft="5dp"
+            android:paddingTop="2dp"
+            android:paddingRight="5dp"
+            android:paddingBottom="2dp"
+            android:background="@mipmap/item_label_bg"
+            android:backgroundTint="@color/min_temp_color"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:text="@string/job_delivery_temp_min_format"/>
+
+        <TextView
+            android:id="@+id/item_avrg_temperature"
+            style="@style/job_delivery_maxmin_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:paddingLeft="5dp"
+            android:paddingTop="2dp"
+            android:paddingRight="5dp"
+            android:paddingBottom="2dp"
+            android:background="@mipmap/item_label_bg"
+            android:backgroundTint="@color/avrg_temp_color"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:text="@string/job_delivery_temp_avrg_format"/>
+
+    </LinearLayout>
+
+</LinearLayout>

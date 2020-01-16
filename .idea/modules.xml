@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CheckLOD-M/CheckLOD-M.iml" filepath="$PROJECT_DIR$/CheckLOD-M/CheckLOD-M.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CheckLOD-R9.iml" filepath="$PROJECT_DIR$/CheckLOD-R9.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CheckLOD-TNT/CheckLOD-TNT.iml" filepath="$PROJECT_DIR$/CheckLOD-TNT/CheckLOD-TNT.iml" />
+      <module fileurl="file://$PROJECT_DIR$/checklod/checklod.iml" filepath="$PROJECT_DIR$/checklod/checklod.iml" />
+      <module fileurl="file://$PROJECT_DIR$/datacontroller/datacontroller.iml" filepath="$PROJECT_DIR$/datacontroller/datacontroller.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nm_ble/nm_ble.iml" filepath="$PROJECT_DIR$/nm_ble/nm_ble.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nm_dcamera/nm_dcamera.iml" filepath="$PROJECT_DIR$/nm_dcamera/nm_dcamera.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nm_location/nm_location.iml" filepath="$PROJECT_DIR$/nm_location/nm_location.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testforble/testforble.iml" filepath="$PROJECT_DIR$/testforble/testforble.iml" />
+    </modules>
+  </component>
+</project>

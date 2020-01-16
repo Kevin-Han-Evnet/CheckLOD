@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root_container"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants"
+    android:background="@color/general_bgcolor">
+
+
+    <com.netmania.checklod.general.view.HeaderGridView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/grid_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/thumbzone_asset"
+        android:numColumns="2"
+        android:horizontalSpacing="3dp"
+        android:verticalSpacing="3dp"
+        android:stretchMode="columnWidth"
+        android:visibility="visible"/>
+
+
+    <FrameLayout
+        android:id="@+id/thumbzone_asset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/progressGo"
+        android:layout_toEndOf="@+id/progressGo">
+
+        <include layout="@layout/layout_inc_thumbzone_for_job" />
+
+    </FrameLayout>
+
+
+
+    <RelativeLayout
+        android:id="@+id/progressGo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transparent_black_dark"
+        android:onClick="onClick"
+        android:visibility="gone">
+
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"/>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

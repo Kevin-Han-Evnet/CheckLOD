@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- for theme -->
+    <color name="colorPrimary">#8ec31f</color>
+    <color name="colorPrimaryDark">#4e6e0a</color>
+    <color name="colorAccent">#a10066</color>
+    <color name="color_1">#228700</color>
+    <color name="color_2">#014900</color>
+
+
+
+</resources>

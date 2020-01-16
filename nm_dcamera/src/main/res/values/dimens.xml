@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="blog_detail_top_option_panel_height">44dp</dimen>
+    <dimen name="blog_write_control_button_size">34dp</dimen>           <!-- 11B  = 11G  -->
+    <dimen name="blog_write_control_button_margin">5dp</dimen>         <!-- 11C  -->
+    <!-- 192x150-->
+
+    <!-- topper btn 192x96 -->
+
+    <!-- topper btn 192x96 -->
+
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:yourapp="http://schemas.android.com/apk/res-auto">
+
+
+
+    <item
+        android:id="@+id/ic_add_photo"
+        android:icon="@drawable/ic_add_a_photo_black_24dp"
+        android:title="@null"
+        android:showAsAction="always"/>
+
+
+</menu>

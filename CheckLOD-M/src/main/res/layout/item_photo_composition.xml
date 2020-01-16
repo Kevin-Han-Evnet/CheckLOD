@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/item_container"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:elevation="5dp"
+        android:background="@color/black"
+        android:padding="2dp"
+        android:layout_height="150dp">
+
+        <ImageView
+            android:id="@+id/item_photo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/list_header_bg"/>
+
+        <TextView
+            android:id="@+id/item_label"
+            style="@style/label_for_photo_comp_photo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="@color/transparent_black_dark"
+            android:padding="10dp"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/ic_document"
+            android:drawableRight="@drawable/ic_delete_forever_24dp"
+            android:text="TNT 송장"/>
+
+        <View
+            android:id="@+id/item_btn_delete"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_gravity="right|bottom"/>
+
+    </FrameLayout>
+
+</LinearLayout>

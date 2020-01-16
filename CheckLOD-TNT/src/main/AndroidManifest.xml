@@ -1,0 +1,231 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.netmania.checklod.tnt">
+
+    <!-- 권한설정 참조 : http://gun0912.tistory.com/55 -->
+    <uses-permission android:name="android.permission.READ_PHONE_NUMBERS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.NFC"/>
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+
+    <uses-feature android:name="android.hardware.bluetooth_le" android:required="true"/>
+    <uses-feature android:name="android.hardware.nfc" android:required="true"/>
+
+    <application
+        tools:replace="theme, icon, label"
+        android:name=".BaseApplication"
+        android:label="@string/app_name"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme">
+
+
+        <!-- Set custom default icon. This is used when no icon is set for incoming notification messages.
+        See README(https://goo.gl/l4GJaQ) for more. -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@mipmap/ic_launcher"
+            android:roundIcon="@mipmap/ic_launcher_round" />
+        <!-- Set color used with incoming notification messages. This is used when no color is set for the incoming
+             notification message. See README(https://goo.gl/6BKBk7) for more. -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorAccent" />
+
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/paths" />
+        </provider>
+
+
+
+        <!-- ###### 브로드캐스트 리시버 ###### -->
+        <receiver android:name=".receiver.AppBroadcastReceiverTNT" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <action android:name="android.intent.action.ACTION_SHUTDOWN" />
+                <action android:name="android.intent.action.PACKAGE_REPLACED" />
+                <action android:name="android.intent.action.PACKAGE_CHANGED" />
+                <action android:name="android.intent.action.PACKAGE_RESTARTED" />
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+                <action android:name="android.intent.action.QUICKBOOT_POWEROFF" />
+                <action android:name="android.intent.action.BATTERY_CHANGED" />
+                <action android:name="android.intent.action.BATTERY_LOW" />
+                <action android:name="android.intent.action.BATTERY_OKAY" />
+
+                <action android:name="android.intent.action.PACKAGE_REPLACED" />
+                <data android:scheme="package"/>
+                <action android:name="ACTION_BRING_APP_TO_FOREGROUND" />
+            </intent-filter>
+        </receiver>
+
+
+        <service
+            android:name=".service.FbInstanceIdService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
+
+        <service
+            android:name=".service.FbMessagingservice">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+
+
+        <service android:name="com.netmania.checklod.general.service.SensingProcessService" android:process=":tmt_sensing"/>
+        <receiver android:name="com.netmania.checklod.general.service.SensingServiceMonitor$SensingServiceMonitorBR" />
+
+        <service android:name="com.netmania.checklod.general.service.HttpProcessService" android:process=":tnt_http"/>
+        <receiver android:name="com.netmania.checklod.general.service.HttpServiceMonitor$HttpServiceMonitorBR" />
+
+        <receiver android:name="com.netmania.checklod.general.service.JobForegroundMoinitor$JobForegroundMoinitorBR" />
+
+
+
+        <!-- ###### 스플래시 화면 ###### -->
+        <activity
+            android:name=".activities.general.ActivitySplash"
+            android:clearTaskOnLaunch="true"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:noHistory="true"
+            android:windowIsTranslucent="true"
+            android:theme="@android:style/Theme.Material.NoActionBar.Fullscreen"
+            tools:targetApi="lollipop">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <!-- ###### 업무 화면 ###### -->
+        <activity
+            android:name=".activities.job.ActivityJobMain"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:logo="@mipmap/topper_logo"
+            android:windowIsTranslucent="true">
+
+            <!-- intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.HOME" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter -->
+
+        </activity>
+
+
+        <!-- ###### 보고 화면 ###### -->
+        <activity
+            android:name=".activities.job.ActivityJobReport"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowIsTranslucent="true" />
+
+
+        <!-- ###### 커스텀 유저 인풋 ###### -->
+        <activity
+            android:name=".activities.job.ActivityCustomUserInputUI"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowIsTranslucent="true"/>
+
+
+        <!-- ###### 데이타 싱크 화면 ###### -->
+        <activity
+            android:name=".activities.job.ActivityDataSync"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowIsTranslucent="true"
+            android:noHistory="true" />
+
+
+        <!-- ###### 사진첨부 조판 화면 ###### -->
+        <activity
+            android:name=".activities.job.ActivityPhotoComposition"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowIsTranslucent="true" />
+
+
+
+        <!-- ###### 락커버 화면 ###### -->
+        <activity
+            android:name=".activities.general.ActivityLockCover"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowIsTranslucent="true"
+            android:launchMode = "singleInstance"
+            android:excludeFromRecents="true"
+            android:taskAffinity=""
+            android:theme="@android:style/Theme.Material.NoActionBar.Fullscreen"
+            tools:targetApi="lollipop" />
+
+
+        <!-- DCamera 관련 화면 -->
+        <activity
+            android:name="lib.netmania.dcamera.Bridge"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|screenSize" >
+        </activity>
+        <activity
+            android:name="lib.netmania.dcamera.DCrop"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.NoActionBar" >
+        </activity>
+        <activity android:name="lib.netmania.dcamera.gallery.GalleryChildActivity" />
+        <activity android:name="lib.netmania.dcamera.gallery.DGallery" />
+        <activity android:name="lib.netmania.dcamera.gallery.PreviewActivity" />
+        <activity
+            android:name="lib.netmania.dcamera.photo_slider.ActivityPhotoSlider"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowIsTranslucent="true"/>
+
+        <!-- fake home -->
+        <activity
+            android:name="com.netmania.checklod.general.activities.ActivityEmptyHome"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"
+            android:windowIsTranslucent="true"
+            android:enabled="false">
+            <!-- intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.HOME" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter -->
+        </activity>
+
+    </application>
+</manifest>

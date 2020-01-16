@@ -1,0 +1,62 @@
+<resources>
+
+    <string name="permission_request_javis">
+		Permissions of Voice recognition and Microphone are required for voice control. Voice control has been deactivated when it refused. Would you like to continue?
+		The permission can be changed in Settings&gt;Application&gt;CheckLOD&gt;Permissions
+    </string>
+
+
+    <string name="toast_javis_permission">Voice recognition has been activated.</string>
+
+    <string name="name_tag"> %s</string>
+    <string name="vehicle_no">Vehicle No.</string>
+    <string name="system_report">System report</string>
+    <string name="label_remain">%s remains</string>
+    <string name="label_used">%s used</string>
+    <string name="label_start_delivery">Sart delivery</string>
+
+    <string name="item_beacon_humidity_info">Hum. : %s</string>
+
+    <string name="label_rdo_report_term_30sec">30 sec</string>
+    <string name="label_rdo_report_term_1min">1 min</string>
+    <string name="label_rdo_report_term_5min">5 min</string>
+    <string name="label_rdo_report_term_10min">10 min</string>
+    <string name="label_rdo_report_term_15min">15 min</string>
+    <string name="label_rdo_report_term_30min">30 min</string>
+
+    <string name="label_for_graph_temp">Temperature</string>
+
+    <string name="report_timeformat_1">d -- HH:mm:ss</string>
+    <string name="report_timeformat_2">MM/dd -- HH:mm:ss</string>
+    <string name="report_timeformat_3">MM/dd -- HH:mm</string>
+
+    <string name="report_item_status_normal">Normal</string>
+    <string name="report_item_status_reported">Reported</string>
+    <string name="report_item_status_standby">Standby</string>
+
+    <string name="label_photo_capture">Tab and take photo.</string>
+    <string name="label_send_all_photos">Send all items</string>
+
+    <string name="data_sync_connecting_beacon">Connecting to beacon no.%s...</string>
+    <string name="data_sync_cant_connect_beacon">Unable to connect beacon no.%s</string>
+    <string name="data_sync_connected_beacon">Connected to beacon no.%s</string>
+    <string name="data_sync_disconnected_beacon">Disconnected to beacon no.%s</string>
+
+    <string name="item_bcn_check_to_start">Check to start</string>
+
+
+    <string name="toast_beacon_sensor_removed">Sensor is removed from beacon (%s).</string>
+    <string name="toast_beacon_low_battery">Battery of beacon is too low. Recharge it. (%s)</string>
+    <string name="toast_beacon_signal_wornning">Beacon signal is too week. Please check distance to beacon. (%s)</string>
+
+    <string name="title_for_test_single_choice">Add beacons</string>
+    <array name="options_for_test_single_choice">
+        <item>Add single item.</item>
+        <item>Add multiple test items.</item>
+    </array>
+
+    <string name="confirm_delete_all">Are you going to delete all items?</string>
+
+    <string name="info_lock_cover">CheckLOD application is now collecting temperature data from logger. Secure display in order to prevent abnormal termination. Press the Home button or the display longer to terminate.</string>
+
+</resources>

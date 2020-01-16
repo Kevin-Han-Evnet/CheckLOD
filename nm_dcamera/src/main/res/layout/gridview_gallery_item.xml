@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lib.netmania.dcamera.gallery.customcomponents.GalleryFrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/baseItemLayout"
+    android:layout_height="119dp" 
+    android:addStatesFromChildren="true"
+    android:foreground="@drawable/gridview_selector">
+    
+    <lib.netmania.dcamera.gallery.customcomponents.RecyclingImageView
+        android:id="@+id/iv_thumbnail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:background="#FF000000" />
+
+    <TextView
+        android:id="@+id/tv_folder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="bottom"
+        android:singleLine="true"
+        android:padding="7dp"
+        android:textColor="#FFFFFFFF"
+        android:background="#77000000"/>
+
+</lib.netmania.dcamera.gallery.customcomponents.GalleryFrameLayout>

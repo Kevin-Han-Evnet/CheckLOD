@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="check_to_start">
+        <item name="android:textColor">@color/steady_text_color</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <style name="info_text_for_lock_cover">
+        <item name="android:textColor">@color/light_gray</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+</resources>

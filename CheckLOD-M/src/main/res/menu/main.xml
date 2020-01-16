@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:yourapp="http://schemas.android.com/apk/res-auto">
+
+
+
+    <item
+        android:id="@+id/ic_driver_info"
+        android:icon="@null"
+        android:title="@null"
+        android:showAsAction="always"
+        android:actionLayout="@layout/layout_driver_info" />
+
+    <item
+        android:id="@+id/ic_wifi"
+        android:icon="@drawable/ic_wifi_off"
+        android:title="@null"
+        android:showAsAction="always"/>
+
+    <item
+        android:id="@+id/ic_more"
+        android:icon="@drawable/ic_info_24dp"
+        android:title="@null"
+        android:showAsAction="always"/>
+
+
+</menu>

@@ -1,0 +1,22 @@
+<resources>
+
+
+    <string name="app_name">TestForBle</string>
+    <string name="error_network">서버와의 연결이 불안정합니다\n\n인터넷 연결을 확인해주세요</string>
+    <string name="confirm_networkfail_retry">통신 중 오류가 발생하였습니다.\n다시 시도하시겠습니까?</string>
+    <string name="confirm_finish">앱을 종료합니다. 배송이 완료된 데이타는 모두 삭제됩니다. 종료 하시겠습니까?</string>
+    <string name="time_utils_something" formatted="false">%d시간,%d분,%d초</string>
+
+
+    <string name="report_timeformat_1">HH시 mm분 ss초</string>
+    <string name="report_timeformat_2">HH시 mm분 ss초</string>
+    <string name="report_timeformat_3">HH시 mm분</string>
+
+
+    <string name="report_item_status_normal">정상</string>
+    <string name="report_item_status_reported">전송완료</string>
+    <string name="report_item_status_standby">전송대기</string>
+
+    <string name="dialog_add_item">추가할 기기의 MAC 주소를 입렧하세요.</string>
+
+</resources>

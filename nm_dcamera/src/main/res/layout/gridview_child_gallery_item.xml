@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lib.netmania.dcamera.gallery.customcomponents.GalleryFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/baseItemLayout"
+    android:layout_width="match_parent"
+    android:layout_height="119dp"
+    android:descendantFocusability="blocksDescendants" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/shape_gallery_itm_bg"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/v3_icon_photo"/>
+
+    </RelativeLayout>
+
+    <lib.netmania.dcamera.gallery.customcomponents.RecyclingImageView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/iv_thumbnail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop" />
+
+    <ImageView
+        android:id="@+id/sys_btn_zoom"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_gravity="bottom|right"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:src="@drawable/selector_sys_btn_zoom"/>
+
+</lib.netmania.dcamera.gallery.customcomponents.GalleryFrameLayout>

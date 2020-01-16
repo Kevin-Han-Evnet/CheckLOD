@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/bcn_control_menu_container"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:background="@color/dark_gray"
+        android:padding="6dp"
+        android:visibility="gone">
+
+        <Button
+            android:id="@+id/btn_clear_data"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/label_btn_clear_data"/>
+
+        <Button
+            android:id="@+id/btn_disconnect"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/label_btn_disconnect"/>
+
+        <Button
+            android:id="@+id/btn_restart_app"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/label_for_btn_finish_job"/>
+
+    </LinearLayout>
+
+
+    <ListView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/bcn_control_menu_container"
+        android:layout_above="@+id/btn_send_to_server_container"
+        android:cacheColorHint="@null"
+        android:divider="@null"
+        android:scrollbars="vertical"
+        android:overScrollMode="ifContentScrolls"
+        android:fadingEdge="none"
+        android:background="@color/white" />
+
+
+    <com.balysv.materialripple.MaterialRippleLayout
+        android:id="@+id/btn_send_to_server_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimary"
+        app:mrl_rippleOverlay="true"
+        app:mrl_rippleColor="@color/colorPrimaryDark"
+        app:mrl_rippleAlpha="0.2"
+        app:mrl_rippleDelayClick="false"
+        app:mrl_rippleHover="true"
+        android:visibility="gone">
+
+        <Button
+            android:id="@+id/btn_send_to_server"
+            style="@style/job_ready_btn_job_start_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@color/transparent"
+            android:text="@string/label_btn_send_to_server" />
+
+    </com.balysv.materialripple.MaterialRippleLayout>
+
+
+</RelativeLayout>

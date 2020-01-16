@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="title_for_type_choice">문서 종류를 선택해주세요.</string>
+    <string-array name="document_types">
+        <item>A,송장</item>
+        <item>B,인수증</item>
+        <item>Z,기타</item>
+    </string-array>
+
+</resources>

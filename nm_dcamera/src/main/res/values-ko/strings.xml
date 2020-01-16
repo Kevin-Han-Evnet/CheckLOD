@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">사진 자르기</string>
+    <string name="btn_label_confirm">확인</string>
+    <string name="btn_label_cancel">취소</string>
+    <string name="btn_bale_upload">올리기</string>
+
+</resources>

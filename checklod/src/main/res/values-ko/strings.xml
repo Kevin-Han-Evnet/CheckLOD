@@ -1,0 +1,217 @@
+<resources>
+
+    <string name="app_name">체크로드</string>
+    <string name="error_network">서버와의 연결이 불안정합니다\n\n인터넷 연결을 확인해주세요</string>
+    <string name="confirm_networkfail_retry">통신 중 오류가 발생하였습니다.\n다시 시도하시겠습니까?</string>
+    <string name="confirm_finish">앱을 종료합니다. 배송이 완료된 데이타는 모두 삭제됩니다. 종료 하시겠습니까?</string>
+
+
+    <!-- 퍼미션 관련 내용 공지 -->
+    <string name="permission_request_phone_state">
+        체크로드 어플리케이션은 귀하께서 일하시는 업체에 등록된 귀하의 전화번호를 자동으로 수집하여 매칭되어 작동하기 때문에 별도의 회원가입 없이 이용되는 어플리케이션입니다.
+        이에 필수 권한을 요청합니다. 거부하시면 어플리케이션을 이용 하실 수 없습니다. 계속 하시겠습니까? 해당 권한은 폰의 설정&gt;어플리케이션 설정&gt;체크로드&gt;권한 메뉴를 통해
+        다시 설정하실 수 있습니다.
+    </string>
+
+    <string name="permission_request_nfc">
+        체크로드 어플리케이션은 NFC태깅 기능을 사용함에 있어서 권한이 필요합니다. 해당 권한을 허용하지 않으면 NFC태깅 기능을 사용 하실 수 없습니다.
+        해당 권한은 폰의 설정&gt;어플리케이션 설정&gt;체크로드&gt;권한 메뉴를 통해 다시 설정하실 수 있습니다.
+    </string>
+
+    <string name="permission_request_location">
+        체크로드 어플리케이션은 BLE신호를 사용하므로 위치정보 수집에 동의하셔야 이 기능을 이용 하실 수 있습니다. 또한 서류를 촬영하여 전송하는 기능 때문에
+        사진 및 미디어파일 접근 권한을 허용 하셔야 합니다. 거부하시면 어플리케이션을 이용 하실 수 없습니다. 계속 하시겠습니까?
+        해당 권한은 폰의 설정&gt;어플리케이션 설정&gt;체크로드&gt;권한 메뉴를 통해 다시 설정하실 수 있습니다.
+    </string>
+
+
+    <string name="permission_deny_message">
+        해당권한을 허용하지 않으면 어플리케이션을 사용 하실 수 없습니다.
+        해당 권한은 폰의 설정&gt;어플리케이션 설정&gt;체크로드&gt;권한 메뉴를 통해
+        다시 설정하실 수 있습니다.
+    </string>
+
+
+    <string name="info_set_home">
+        체크로드 앱을 홈화면으로 지정합니다. 아래 리스트에서 체크로드 항목을 선택해 주세요.
+    </string>
+    <string name="info_release_home">
+        홈화면을 기존으로 복구합니다. 아래 리스트에서 체크로드 외의 사용중이시던 홈화면을 선택해주세요.
+    </string>
+
+
+    <string name="alert_not_allowed_beacon">서버에 등록된 비콘이 아닙니다. 관리자에게 문의하세요.</string>
+    <string name="alert_temp_range_not_set">%s번 비콘의 온도 범위가 설정 되지 않았습니다.</string>
+    <string name="alert_ble_not_run">%s번 비콘의 모드가 RUNNING이 아닙니다.</string>
+    <string name="alert_temp_not_stable">%s번 비콘의 온도가 안정화 되지 않았습니다.</string>
+
+
+    <array name="job_select_options">
+        <item>신규배송 시작</item>
+        <item>기존배송 인수</item>
+        <item>화물배송 인수</item>
+        <item>취소</item>
+    </array>
+
+
+    <string name="confirm_home_launcher_me">
+        배송중 데이타 전송을 원활하게 하기 위해 체크로드 어플을 홈에 고정합니다. 확인후 팝업되는 메뉴에서 [홈 화면 > 체크로드] 를 선택해주세요
+    </string>
+    <string name="confirm_home_launcher_them">
+        배송물건이 없습니다. 홈화면고정을 원래 화면으로 복구합니다. 확인후 팝업되는 메뉴상의 [홈 화면] 항목에서 사용중이신 다른 홈화면을 선택하세요.
+    </string>
+
+
+    <string name="confirm_beacon_remove">%s번 비콘의 기록을 휴대폰에서 삭제하고 리스트에서 삭제합니다. 계속하시겠습니까?</string>
+
+    <string name="alert_need_bluetooth">블루투스가 활성화 되어야 어플리케이션이 정상 동작합니다.</string>
+    <string name="alert_need_nfc">NFC가 [기본]모드로 활성화 되어야 어플리케이션이 정상 동작합니다.</string>
+    <string name="ble_not_supported">해당기기는 저전력 블루투스가 지원되지 않습니다.</string>
+
+
+    <!-- about permission -->
+    <string name="toast_location_permission">앱실행에 필수적인 권한에 동의하셨습니다.</string>
+
+    <!-- job -->
+    <string name="progress_takeover_title">데이타 저장중</string>
+    <string name="progress_takeover_message">이전 배송 데이타를 가져옵니다.</string>
+
+
+    <!-- job ready -->
+    <string name="message_not_alowed_background">배송중인 품목이 있습니다.\n어플리케이션이 백그라운드에 들어갈 수 없습니다.</string>
+    <string name="message_not_alowed_background_forever">차량용 장비는 체크로드 전용입니다.</string>
+    <string name="message_background">한번 더 뒤로가기를 누르면 앱이 백그라운드에서 실행됩니다.</string>
+    <string name="message_quit">한번 더 뒤로가기를 누르면 앱이 종료됩니다.</string>
+    <string name="alert_not_enough_info">서버에서 필요한 정보를 얻을 수 없습니다.</string>
+    <string name="job_ready_hello">안녕하세요.</string>
+    <string name="job_ready_info">❤업무를 준비합니다.❤</string>
+    <string name="alert_temperature_range_not_set">온도 범위가 셋팅 되지 않은 비콘이 있습니다.</string>
+    <string name="alert_beacon_not_run">비콘의 상태가 RUN이 아닙니다.</string>
+    <string name="alert_temperature_not_stable">등록된 비콘의 온도가 모두 안정화 된 뒤 시작하세요.</string>
+    <string name="alert_driver_not_found">등록된 휴대폰이 아닙니다. 관리자에게 문의하세요.</string>
+    <string name="job_ready_give_me_sticker_no">등록할 기기의 스티커 넘버를 입력하세요.</string>
+    <string name="toast_delay_start_info">%s분 후에 자동으로 시작합니다.</string>
+    <string name="toast_delay_start">지연시작을 택할 경우 시작될 때까지 다른작업을 하실 수 없습니다.</string>
+
+    <string name="msg_warnning_wifi">네트워크가 와이파이를 통해 연결되어있습니다. 와이파이를 끄고 모바일 네트워크를 사용하는것을 권장합니다.</string>
+    <string name="msg_warnning_battery">배터리가 %s 밖에 남지 않았습니다. 충전후 사용하시기를 권장합니다.</string>
+    <string name="msg_warnning_storage">가용 저장공간이 %s밖에 남지 않았습니다. 용량이 큰 사진 혹은 동영상등을 삭제하여 용량을 확보해 주세요.</string>
+    <string name="msg_warnning_no_connection">네트워크 연결이 되어있지 않습니다. 네트워크 연결을 확인해주세요.</string>
+    <string name="no_item_desc">비콘을 태깅하거나 [+] 버튼을 눌러 비콘을 등록하세요.</string>
+
+
+    <string name="label_for_input_sticker_no">스티커넘버</string>
+    <string name="label_for_input_phone_no">전화번호</string>
+    <string name="label_for_dialog_yes">입력</string>
+    <string name="label_for_dialog_no">취소</string>
+
+    <string name="toast_dup_device">이미 추적중인 비콘입니다.</string>
+
+
+    <!-- job delivery -->
+    <string name="driver_info_text" formatted="false">%s (%s)</string>
+    <string name="job_delivery_temp_max_format">최고 %s℃</string>
+    <string name="job_delivery_temp_min_format">최저 %s℃</string>
+    <string name="job_delivery_temp_avrg_format">평균 %s℃</string>
+    <string name="job_delivery_temp_outside_format">칩셋-%s</string>
+    <string name="label_btn_temp_range">온도범위</string>
+    <string name="info_takeover_temp_range_1">미설정</string>
+    <string name="info_takeover_temp_range_2">인수예정</string>
+    <string name="label_btn_temp_range_ordering_no">배송정보</string>
+    <string name="label_btn_delete">삭제</string>
+
+    <string name="delivery_state_handover">배송 물품(비콘)이 다른 휴대폰으로 인계 되었습니다.</string>
+    <string name="delivery_state_invoice">배송종료 처리되었으나 송장전송이 되지 않았습니다.</string>
+    <string name="delivery_state_complete">송장이 전송되었으며 배송이 완료 되었습니다.</string>
+    <string name="delivery_state_cargo">화물배송건을 인수합니다.</string>
+    <string name="delivery_state_btn_label_delete">삭제</string>
+    <string name="delivery_state_btn_label_invoice">송장전송</string>
+    <string name="info_delivery_duration" formatted="false">총 배송시간 : %s, 누락 : %s건, 누락율 : %s</string>
+    <string name="info_delivery_duration_for_release" formatted="false">총 배송시간 : %s</string>
+    <string name="tag_key_btn_delete_0">position</string>
+    <string name="tag_key_btn_delete_1">value</string>
+    <string name="delivery_state_btn_finish">배송종료</string>
+    <string name="delivery_state_btn_switched">다른폰으로 인계되었습니다.</string>
+    <string name="delivery_state_btn_finished">배송이 종료되었습니다.</string>
+    <string name="delivery_state_btn_invoice">송장전송</string>
+
+    <string name="alert_job_finish">배송이 모두 완료 되었습니다. 업무를 종료하고 새로운 업무를 준비 합니다.</string>
+    <string name="label_for_btn_start_job">추가배송 시작</string>
+    <string name="label_for_btn_finish_job">업무 초기화</string>
+    <string name="label_for_btn_check_data">데이타체크</string>
+    <string name="alert_beacon_to_run">%s번 비콘의 상태가 RUN모드인지 확인이 필요합니다.</string>
+    <string name="info_version_text">\n체크로드 버전은 [ %s ]입니다.</string>
+
+
+    <string name="confirm_checkout">온도데이타 전송을 종료 합니다. 계속하시겠습니까?</string>
+    <string name="alert_checkout_first">종료버튼을 눌러 추적을 종료하셔야 송장전송이 가능합니다.</string>
+    <string name="alert_no_data">배송데이타가 전혀 없습니다.</string>
+    <string name="confirm_no_data">배송데이타가 전혀 없습니다. 배송건을 종료 할까요?</string>
+
+
+    <string name="info_upload_complete">배송 프로세스가 완료되었습니다.</string>
+    <string name="info_upload_failed">송장 전송에 실패했습니다.</string>
+
+    <string name="title_job_finish_option">배송종료 업무 선택</string>
+    <array name="job_finish_options">
+        <item>고객사 인계 및 배송 종료</item>
+        <item>KTX 상차 및 배송전환</item>
+    </array>
+
+    <string name="confirm_delete_photo_item">[%s]항목을 삭제하시겠습니까?</string>
+    <string name="toast_no_photos_to_send">전송할 사진이 하나도 없습니다.</string>
+
+    <!-- 테스트 용 -->
+
+
+    <string name="alert_job_send_by_ktx">현재 휴대폰에서만  데이타전송이 종료되며 서버의 세션은 유지됩니다.</string>
+
+
+    <!-- for test -->
+    <string name="admin_delivery_msg">배송관리할 물건의 기사전화번호, 스티커넘버를 아래 입력란에 차례로 입력하세요.</string>
+
+
+
+    <string name="info_delivery_is_over">[%s] 항목의 온도 전송이 종료되었습니다. 송장을 촬영하여 전송합니다.</string>
+    <string-array name="menu_photo_select">
+        <item>사진촬영</item>
+        <item>갤러리에서 선택</item>
+    </string-array>
+
+
+
+    <!-- for ktx -->
+    <string name="alert_cant_start_backup">KTX에서 인수건은 다른 배송건과 함께 시작할 수 없습니다.</string>
+    <string name="alert_cant_start_backup_2">KTX에서 인수건을 시작할 수 없습니다.</string>
+    <string name="info_ktx_info_001">아래 그림과 같이 비콘의 모드를 RDY로 바꾸신 후 Lnk 버튼을 눌러 비콘을 연결 대기 상태로 전환 합니다.</string>
+    <string name="info_ktx_info_002">아래 비콘 정보를 확인하고 온도 범위를 설정해 주세요.</string>
+    <string name="label_btn_next_step">다음 단계로</string>
+    <string name="label_btn_send_to_server">수신된 데이타 전송</string>
+    <string name="label_btn_receive_to_phone">비콘 데이타 수신</string>
+    <string name="label_btn_reconnect">비콘 재접속</string>
+    <string name="toast_beacon_data_download">비콘에서 데이타를 수신합니다...</string>
+    <string name="toast_beacon_data_upload">비콘에서 내려받은 데이타를 서버로 전송합니다.</string>
+    <string name="toast_can_not_connect_to_beacon">비콘에서 접속에 실패습니다.</string>
+    <string name="label_btn_clear_data">비콘 데이타 초기화</string>
+    <string name="label_btn_disconnect">비콘 연결 끊기</string>
+    <string name="confrim_reset_for_job">배송업무 시작을 위해 업무를 초기화 합니다.</string>
+    <string name="toast_no_remains">남아있는 데이타가 없습니다.</string>
+    <string name="alert_no_ble_signal">로거 시그널이 아직 없습니다. 로거의 전원을 켰는지 확인해주세요.</string>
+
+
+    <string name="voice_recharging_alert">차량용 디바이스는 항상 케이블에 연결되어 충전이 진행 되어야합니다. 충전 케이블에 연결하여 주세요.</string>
+    <string name="voice_check_beacon">%s번 비콘의 상태를 체크해주세요. RUNNING 모드가 아닙니다.</string>
+
+
+    <string name="voice_check_signal_term">%s번 비콘의 체크주기가 1분 이상입니다. 최대 1분 텀으로 셋팅하셔야 5분 단위 보고서가 정확히 작성됩니다.</string>
+
+    <string name="time_utils_something" formatted="false">%d시간,%d분,%d초</string>
+
+    <string name="title_for_upload_progress">업로드</string>
+    <string name="message_for_upload_progress">이미지 업로드 중입니다.</string>
+
+
+    <string name="job_select_title">동작 설정</string>
+
+
+</resources>

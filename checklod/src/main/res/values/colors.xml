@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- default -->
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="black">#FF000000</color>
+    <color name="light_gray">#797979</color>
+    <color name="dark_gray">#585858</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparent_black_dark">#AA000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="bg_gray">#FFDDDDDD</color>
+
+    <color name="general_bgcolor">#dad5d2</color>
+
+
+    <color name="btn_ios_style_standby">#6c6d73</color>
+
+
+    <color name="label_font_color_1">#fff0b8</color>
+    <color name="description_font_color_2">#ffffff</color>
+
+
+    <color name="warnning_red">#810400</color>
+
+
+
+    <!-- warnning -->
+    <color name="steady_text_color">#9cd778</color>
+    <color name="steady_background">#00FFFFFF</color>
+    <color name="warnning_background">#ff7700</color>
+    <color name="danger_background">#ff000d</color>
+
+
+    <color name="min_temp_color">#424ea7</color>
+    <color name="avrg_temp_color">#009732</color>
+
+
+    <color name="job_ready_rod_color">#FFFFFF</color>
+</resources>

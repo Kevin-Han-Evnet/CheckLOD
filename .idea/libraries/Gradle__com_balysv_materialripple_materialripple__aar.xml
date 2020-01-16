@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: com.balysv.materialripple:materialripple:@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d5d557c43a29cad0aa7d34ca95fb3b57/materialripple/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d5d557c43a29cad0aa7d34ca95fb3b57/materialripple/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

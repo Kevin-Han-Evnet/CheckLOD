@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/btn_next_step_container"
+        android:background="@color/general_bgcolor"
+        android:padding="15dp"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="top">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="2dp"
+                android:src="@drawable/ic_looks_one_black_24dp"
+                android:tint="@color/dark_gray"/>
+
+            <TextView
+                style="@style/ktx_info_text_001_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="@string/info_ktx_info_001"/>
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@mipmap/img_data_sync_help"
+            android:layout_marginTop="10dp" />
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal"
+            android:gravity="top">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="2dp"
+                android:src="@drawable/ic_looks_two_black_24dp"
+                android:tint="@color/dark_gray"/>
+
+            <TextView
+                style="@style/ktx_info_text_001_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="@string/info_ktx_info_002"/>
+
+        </LinearLayout>
+
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <include layout="@layout/item_beaconlist_for_job" />
+
+        </FrameLayout>
+
+
+    </LinearLayout>
+
+
+    <com.balysv.materialripple.MaterialRippleLayout
+        android:id="@+id/btn_next_step_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimary"
+        app:mrl_rippleOverlay="true"
+        app:mrl_rippleColor="@color/colorPrimaryDark"
+        app:mrl_rippleAlpha="0.2"
+        app:mrl_rippleDelayClick="false"
+        app:mrl_rippleHover="true">
+
+        <Button
+            android:id="@+id/btn_next_step"
+            style="@style/job_ready_btn_job_start_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@color/transparent"
+            android:text="@string/label_btn_next_step" />
+
+    </com.balysv.materialripple.MaterialRippleLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/step_2_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <include layout="@layout/activity_data_sync_step_2" />
+
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:id="@+id/progressGo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transparent_black_dark"
+        android:onClick="onClick"
+        android:visibility="gone">
+
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"/>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

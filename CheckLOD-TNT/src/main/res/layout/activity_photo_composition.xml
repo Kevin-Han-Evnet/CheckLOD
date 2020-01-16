@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+
+    <ListView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/thumbzone_asset"
+        android:cacheColorHint="@null"
+        android:divider="@null"
+        android:scrollbars="vertical"
+        android:overScrollMode="ifContentScrolls"
+        android:fadingEdge="none"
+        android:background="@color/white"
+        android:visibility="gone"/>
+
+
+    <FrameLayout
+        android:id="@+id/tab_add_photo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:paddingBottom="90dp"
+            android:tint="@color/light_gray"
+            android:src="@drawable/ic_add_a_photo_black_24dp"/>
+
+        <TextView
+            style="@style/label_for_photo_comp_add_photo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="70dp"
+            android:layout_gravity="center_horizontal|bottom"
+            android:gravity="center"
+            android:text="@string/label_photo_capture"/>
+
+    </FrameLayout>
+
+
+    <LinearLayout
+        android:id="@+id/thumbzone_asset"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/thumbnail_zone_height"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+
+        <com.balysv.materialripple.MaterialRippleLayout
+            android:id="@+id/btn_send_all_container"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:background="@color/colorPrimary"
+            app:mrl_rippleOverlay="true"
+            app:mrl_rippleColor="@color/colorPrimaryDark"
+            app:mrl_rippleAlpha="0.2"
+            app:mrl_rippleDelayClick="false"
+            app:mrl_rippleHover="true">
+
+            <Button
+                android:id="@+id/btn_send_all"
+                style="@style/job_ready_btn_job_start_text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="@color/transparent"
+                android:text="@string/label_send_all_photos" />
+
+        </com.balysv.materialripple.MaterialRippleLayout>
+
+
+        <com.balysv.materialripple.MaterialRippleLayout
+            android:id="@+id/btn_add_photo_container"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/color_1"
+            app:mrl_rippleOverlay="true"
+            app:mrl_rippleColor="@color/color_2"
+            app:mrl_rippleAlpha="0.2"
+            app:mrl_rippleDelayClick="false"
+            app:mrl_rippleHover="true">
+
+            <ImageButton
+                android:id="@+id/btn_add_photo"
+                style="@style/job_ready_btn_job_start_text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/transparent"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_add_a_photo_black_24dp"/>
+
+        </com.balysv.materialripple.MaterialRippleLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

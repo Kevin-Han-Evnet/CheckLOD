@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:id="@+id/item_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="150dp"
+        android:layout_margin="5dp"
+        android:padding="0dp"
+        android:background="@mipmap/item_bg"
+        android:elevation="2dp"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/item_label_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/item_ble_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/ic_bluetooth_off" />
+
+            <TextView
+                android:id="@+id/item_sticker"
+                style="@style/job_delivery_beacon_sticker_text"
+                android:layout_width="@dimen/job_delivery_list_item_sticker_size"
+                android:layout_height="@dimen/job_delivery_list_item_sticker_size"
+                android:background="@mipmap/circle_bg"
+                android:gravity="center"
+                android:text="42" />
+
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/item_temperature_rage"
+            style="@style/job_delivery_temperature_range_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/bg_gray"
+            android:padding="6dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="냉장 (2℃ ~ 8℃)"/>
+
+
+        <TextView
+            android:id="@+id/item_seq"
+            style="@style/job_delivery_beacon_seq_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="left"
+            android:padding="10dp"
+            android:text="8823"
+            android:visibility="gone"/>
+
+
+        <FrameLayout
+            android:id="@+id/item_data_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/item_report"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_marginRight="6dp"
+                android:layout_gravity="top|right"
+                android:src="@drawable/ic_good"/>
+
+
+            <!-- 온도 모니터링 -->
+            <FrameLayout
+                android:id="@+id/item_info_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/beacon_item_contents_paddingt"
+                android:layout_marginLeft="@dimen/beacon_item_contents_paddingt"
+                android:layout_marginRight="@dimen/beacon_item_contents_paddingt"
+                android:minHeight="100dp"
+                android:background="@mipmap/steady_background_clip">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center|bottom"
+                    android:orientation="vertical">
+
+                    <CheckBox
+                        android:id="@+id/item_ble_check"
+                        style="@style/check_to_start"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingRight="15dp"
+                        android:layout_gravity="center_horizontal"
+                        android:buttonTint="@color/steady_text_color"
+                        android:text="@string/item_bcn_check_to_start"/>
+
+                    <com.github.jivimberg.library.AutoResizeTextView
+                        android:id="@+id/item_temp_probe"
+                        style="@style/job_delivery_temperature_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/beacon_item_temp_probe_height"
+                        android:gravity="center"
+                        android:text="4.5"/>
+
+
+
+                    <TextView
+                        android:id="@+id/item_temp_char"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="-10dp"
+                        android:textColor="@color/steady_text_color"
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        android:text="℃"/>
+
+                </LinearLayout>
+
+
+            </FrameLayout>
+
+        </FrameLayout>
+
+
+        <!-- READY -->
+        <LinearLayout
+            android:id="@+id/item_ready_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:minHeight="@dimen/beacon_item_contents_min_height"
+            android:padding="@dimen/beacon_item_contents_paddingt"
+            android:visibility="gone">
+
+            <Button
+                android:id="@+id/item_btn_delete"
+                style="@style/btn_ios_style_text"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:background="@drawable/btn_ios_style_k"
+                android:text="@string/label_btn_delete"
+                android:textSize="12dp" />
+
+            <Button
+                android:id="@+id/item_btn_temp_range"
+                style="@style/btn_ios_style_text"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:background="@drawable/btn_ios_style_k"
+                android:text="@string/label_btn_temp_range"
+                android:textSize="12dp"/>
+
+        </LinearLayout>
+
+
+        <!-- DELIVERY -->
+        <LinearLayout
+            android:id="@+id/item_delivery_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/beacon_item_contents_paddingt"
+            android:visibility="gone">
+
+
+
+
+            <TextView
+                android:id="@+id/item_timestamp"
+                style="@style/job_delivery_time_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:paddingTop="2dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="2dp"
+                android:background="@mipmap/item_label_bg"
+                android:backgroundTint="@color/bg_gray"
+                android:gravity="center"
+                android:text="17시 21분 35초"
+                android:visibility="gone" />
+
+
+            <TextView
+                android:id="@+id/item_max_temperature"
+                style="@style/job_delivery_max_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:paddingLeft="5dp"
+                android:paddingTop="2dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="2dp"
+                android:background="@mipmap/item_label_bg"
+                android:backgroundTint="@color/bg_gray"
+                android:gravity="center"
+                android:text="@string/job_delivery_temp_max_format"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/item_min_temperature"
+                style="@style/job_delivery_min_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:paddingLeft="5dp"
+                android:paddingTop="2dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="2dp"
+                android:background="@mipmap/item_label_bg"
+                android:backgroundTint="@color/bg_gray"
+                android:gravity="center"
+                android:text="@string/job_delivery_temp_min_format"
+                android:visibility="gone"/>
+
+
+        </LinearLayout>
+
+
+        <!-- HANDOVER -->
+        <LinearLayout
+            android:id="@+id/item_handover_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:minHeight="@dimen/beacon_item_contents_min_height"
+            android:padding="@dimen/beacon_item_contents_paddingt"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="26dp"
+                android:layout_height="30dp"
+                android:layout_gravity="top|center_horizontal"
+                android:src="@mipmap/icon_caution"
+                android:tint="@color/dark_gray" />
+
+            <TextView
+                style="@style/job_delivery_state_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:drawableTint="@color/dark_gray"
+                android:text="@string/delivery_state_handover"/>
+
+            <Button
+                android:id="@+id/item_btn_delete_2"
+                style="@style/btn_ios_style_text"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:layout_marginTop="4dp"
+                android:background="@drawable/btn_ios_style_k"
+                android:text="@string/label_btn_delete"
+                android:textSize="12dp" />
+
+        </LinearLayout>
+
+
+        <!-- INVOICE -->
+        <LinearLayout
+            android:id="@+id/item_invoice_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:minHeight="@dimen/beacon_item_contents_min_height"
+            android:padding="@dimen/beacon_item_contents_paddingt"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="26dp"
+                android:layout_height="30dp"
+                android:layout_gravity="top|center_horizontal"
+                android:src="@mipmap/icon_caution"
+                android:tint="@color/dark_gray" />
+
+            <TextView
+                style="@style/job_delivery_state_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:drawableTint="@color/dark_gray"
+                android:text="@string/delivery_state_invoice"/>
+
+            <Button
+                android:id="@+id/item_btn_send_photo"
+                style="@style/btn_ios_style_text"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:layout_marginTop="4dp"
+                android:background="@drawable/btn_ios_style_k"
+                android:text="@string/delivery_state_btn_invoice"
+                android:textSize="12dp" />
+
+
+        </LinearLayout>
+
+
+        <!-- COMPLETE -->
+        <LinearLayout
+            android:id="@+id/item_complete_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:minHeight="@dimen/beacon_item_contents_min_height"
+            android:padding="@dimen/beacon_item_contents_paddingt"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="26dp"
+                android:layout_height="30dp"
+                android:layout_gravity="top|center_horizontal"
+                android:src="@mipmap/icon_caution"
+                android:tint="@color/dark_gray" />
+
+            <TextView
+                style="@style/job_delivery_state_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:drawableTint="@color/dark_gray"
+                android:text="@string/delivery_state_complete"/>
+
+            <Button
+                android:id="@+id/item_btn_delete_3"
+                style="@style/btn_ios_style_text"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:layout_marginTop="4dp"
+                android:background="@drawable/btn_ios_style_k"
+                android:text="@string/label_btn_delete"
+                android:textSize="12dp" />
+
+
+        </LinearLayout>
+
+        <!-- COMPLETE -->
+        <LinearLayout
+            android:id="@+id/item_cargo_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:minHeight="@dimen/beacon_item_contents_min_height"
+            android:padding="@dimen/beacon_item_contents_paddingt"
+            android:visibility="visible">
+
+            <ImageView
+                android:layout_width="26dp"
+                android:layout_height="30dp"
+                android:layout_gravity="top|center_horizontal"
+                android:src="@mipmap/icon_caution"
+                android:tint="@color/dark_gray" />
+
+            <TextView
+                style="@style/job_delivery_state_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:drawableTint="@color/dark_gray"
+                android:text="@string/delivery_state_cargo"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

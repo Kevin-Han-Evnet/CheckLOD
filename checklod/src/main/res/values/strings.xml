@@ -1,0 +1,209 @@
+<resources>
+
+    <string name="app_name">CheckLOD</string>
+    <string name="error_network">Internet connection is not stabled.\n\n Please check internet connections.</string>
+    <string name="confirm_networkfail_retry">Error occured during connection. \n Would you like to reconnect?</string>
+    <string name="confirm_finish">Close an application. Datas of completed delivery will be removed. Would you like to close?</string>
+
+
+    <!-- 퍼미션 관련 내용 공지 -->
+    <string name="permission_request_phone_state">
+		CheckLOD can be used without extra sign-up because it collects cellular number and compares with the registered cellular numbers in the company.
+		Thus, CheckLOD requests necessary permission. CheckLOD can not be used when it refused. Would you like to continue? This permission can be reset in Settings&gt;Application&gt;CheckLOD&gt;Permissions
+    </string>
+    초기화 영어
+    <string name="permission_request_nfc">
+		CheckLOD requests permission for using NFC tagging. The function may be deactivated when it refused. This permission can be reset in Settings&gt;Application&gt;CheckLOD&gt;Permissions.
+    </string>
+
+    <string name="permission_request_location">
+        Permission of location is required for CheckLOD BLE signal communication. Permissions of Camera and Picture library are also required for taking picture of documents and transmission. If those are refused, CheckLOD cannot be used. Would you like to continue? Those permissions can be reset in Settings&gt;Application&gt;CheckLOD&gt;Permissions.
+    </string>
+
+
+    <string name="permission_deny_message">
+		CheckLOD may not be proceeded when the permission has been refused. This permission can be reset in Settings&gt;Application&gt;CheckLOD&gt;Permissions
+    </string>
+
+
+    <string name="info_set_home">
+		Set the CheckLOD as main display.Please select CheckLOD within the list of below.
+    </string>
+    <string name="info_release_home">
+		Restore home screen as a default. Please select home screen without CheckLOD.
+    </string>
+
+
+    <string name="alert_not_allowed_beacon">The beacon is not registered. Please ask manager</string>
+    <string name="alert_temp_range_not_set">Temperature range of beacon no.%s has not been initialized </string>
+    <string name="alert_ble_not_run">Status of beacon no.%s is not \'RUNNING\'</string>
+    <string name="alert_temp_not_stable">Temperature of beacon no.%s is not stabled</string>
+
+
+    <array name="job_select_options">
+        <item>Start new trip</item>
+        <item>Take existed trip</item>
+        <item>Take Cargo trip</item>
+        <item>cancel</item>
+    </array>
+
+
+    <string name="confirm_home_launcher_me">
+        Fix the CheckLOD on the Home screen for data communication during the delivery. Please select [Home Screen > CheckLOD] on the following menu.
+    </string>
+    <string name="confirm_home_launcher_them">
+        Delivery item is empty. Restore home screen as default. Please check and select the other home screen on the list of [Home screen].
+    </string>
+
+
+    <string name="confirm_beacon_remove">Delete the datas of beacon no.%s on the list and the cellular. Would you like to continue?</string>
+
+    <string name="alert_need_bluetooth">The Application is normally operated when bluetooth activated</string>
+    <string name="alert_need_nfc">The Application is normally operated when NFC activated as default</string>
+    <string name="ble_not_supported">This cellular is not supported for BLE communication</string>
+
+
+    <!-- about permission -->
+    <string name="toast_location_permission">Necessary permission has been agreed</string>
+
+    <!-- job -->
+    <string name="progress_takeover_title">Importing</string>
+    <string name="progress_takeover_message">Import previous trip datas</string>
+
+
+    <!-- job ready -->
+    <string name="message_not_alowed_background">Delivery is in progress. \n The App can not run into background.</string>
+    <string name="message_not_alowed_background_forever">Cellular for the automobiles only for the CheckLOD</string>
+    <string name="message_background">Application will be running in the background when backword button is touched</string>
+    <string name="message_quit">Application will be closed when backword button is touched</string>
+    <string name="alert_not_enough_info">Necessary information of server can not be loaded </string>
+    <string name="job_ready_hello">Hello.</string>
+    <string name="job_ready_info">Tasks are ready.</string>
+    <string name="alert_temperature_range_not_set">Temperature range for beacon has not been initialized. </string>
+    <string name="alert_beacon_not_run">Status of beacon is not RUN</string>
+    <string name="alert_temperature_not_stable">Starts when temperatures of registerd bicons has been stabled</string>
+    <string name="alert_driver_not_found">This is not registered cellular. Ask manager</string>
+    <string name="job_ready_give_me_sticker_no">Put sticker number of registerd beacon</string>
+    <string name="toast_delay_start_info">Will be started automatically after %s minutes</string>
+    <string name="toast_delay_start">Other tasks are not be able to when delay start has been set</string>
+    <string name="msg_warnning_wifi">Network is connected through Wi-Fi. Recommand to use mobile network with turning Wi-Fi off.</string>
+    <string name="msg_warnning_battery">Battery only reamins %s.Recommand to recharge.</string>
+    <string name="msg_warnning_storage">The storage only remains for %s. Please delete other files for big size of pictures or videos.</string>
+    <string name="msg_warnning_no_connection">Network is not connected. Please check the connection.</string>
+    <string name="no_item_desc">Tag the beacon or enter the beacon using [+] button.</string>
+
+
+    <string name="label_for_input_sticker_no">Beacon Number</string>
+    <string name="label_for_input_phone_no">Cellular No</string>
+    <string name="label_for_dialog_yes">enter</string>
+    <string name="label_for_dialog_no">cancel</string>
+
+    <string name="toast_dup_device">This beacon is already tracking.</string>
+
+
+    <!-- job delivery -->
+    <string name="driver_info_text" formatted="false">%s (%s)</string>
+    <string name="job_delivery_temp_max_format">Maximum %s℃</string>
+    <string name="job_delivery_temp_min_format">Minimum %s℃</string>
+    <string name="job_delivery_temp_avrg_format">Average %s℃</string>
+    <string name="job_delivery_temp_outside_format">Chipset-%s</string>
+    <string name="label_btn_temp_range">Temperature range</string>
+    <string name="info_takeover_temp_range_1">No settings</string>
+    <string name="info_takeover_temp_range_2">Takeover expected</string>
+    <string name="label_btn_temp_range_ordering_no">Delivery information</string>
+    <string name="label_btn_delete">Delete</string>
+
+    <string name="delivery_state_handover">The delivery(beacon) is imported to another cellular.</string>
+    <string name="delivery_state_invoice">The delivery has completed but invoice has not sent</string>
+    <string name="delivery_state_complete">The delivery has completed and invoice has sent.</string>
+    <string name="delivery_state_cargo">Takeover cargo shipment</string>
+    <string name="delivery_state_btn_label_delete">Delete</string>
+    <string name="delivery_state_btn_label_invoice">invoice transmission</string>
+    <string name="info_delivery_duration" formatted="false">Total delivery time : %s, Lost : %s ea, % of lost : %s</string>
+    <string name="info_delivery_duration_for_release" formatted="false">Total delivery time : %s</string>
+    <string name="tag_key_btn_delete_0">position</string>
+    <string name="tag_key_btn_delete_1">value</string>
+    <string name="delivery_state_btn_finish">Finish delivery</string>
+    <string name="delivery_state_btn_switched">Takeovered to other cellular</string>
+    <string name="delivery_state_btn_finished">Delivery finished</string>
+    <string name="delivery_state_btn_invoice">invoice transmission</string>
+
+    <string name="alert_job_finish">Delivery is completed. Exit and prepare new task.</string>
+    <string name="label_for_btn_start_job">Start extra trips</string>
+    <string name="label_for_btn_finish_job">Reset the task</string>
+    <string name="label_for_btn_check_data">Check data</string>
+    <string name="alert_beacon_to_run">Please check the status as \'RUN\' of beacon no.%s</string>
+    <string name="info_version_text">\n Version of CheckLOD is [ %s ]</string>
+
+
+    <string name="confirm_checkout">Finish the transmission of temperature data. Would you like to continue?</string>
+    <string name="alert_checkout_first">Invoice will be able to transmit to finish trackings by \'Finish delivery\'</string>
+    <string name="alert_no_data">Delivery datas are empty.</string>
+    <string name="confirm_no_data">Delivery datas are empty. Will you complete this delivery item?</string>
+
+
+    <string name="info_upload_complete">Delivery process has been completed.</string>
+    <string name="info_upload_failed">Failed to transmit invoice</string>
+
+    <string name="title_job_finish_option">Select the task of completed delivery</string>
+    <array name="job_finish_options">
+        <item>Takeover and complete the trip</item>
+        <item>Cargo shipment and take trip</item>
+    </array>
+
+    <string name="confirm_delete_photo_item">Would you like to delete no.%s ? </string>
+    <string name="toast_no_photos_to_send">Transmittable photo is empty</string>
+
+    <!-- 테스트 용 -->
+
+
+    <string name="alert_job_send_by_ktx">Finish the data transmission on the cellular but session of server remains</string>
+
+
+    <!-- for test -->
+    <string name="admin_delivery_msg">Please enter the cellular number and beacon number on the below.</string>
+
+
+
+    <string name="info_delivery_is_over">Data transmission of no.%s has finished. Take a picture of invoice and transmit it. </string>
+    <string-array name="menu_photo_select">
+        <item>Take a picture</item>
+        <item>Select from gallery</item>
+    </string-array>
+
+
+
+    <!-- for ktx -->
+    <string name="alert_cant_start_backup">Trip for Cargo shipment may not be started with other trips </string>
+    <string name="alert_cant_start_backup_2">Cannot start of takeover in Cargo shipment.</string>
+    <string name="info_ktx_info_001">After changing status of beacon as \'RDY\' shown in below, push \'Lnk\' button to update status of  beacon ready to connect. </string>
+    <string name="info_ktx_info_002">Please check beacon information below, then set temperature range </string>
+    <string name="label_btn_next_step">Next step</string>
+    <string name="label_btn_send_to_server">Transfer transmitted data </string>
+    <string name="label_btn_receive_to_phone">Receive beacon data</string>
+    <string name="label_btn_reconnect">Reconnect to beacon</string>
+    <string name="toast_beacon_data_download">Receiving datas from beacon</string>
+    <string name="toast_beacon_data_upload">Transmit the received data from beacon to server</string>
+    <string name="toast_can_not_connect_to_beacon">Failed to connect to beacon</string>
+    <string name="label_btn_clear_data">Initialize beacon data</string>
+    <string name="label_btn_disconnect">Disconnect to beacon </string>
+    <string name="confrim_reset_for_job">Reset the task to start delivery</string>
+    <string name="toast_no_remains">No remaining datas</string>
+    <string name="alert_no_ble_signal">No logger signals exists. Please check the power of beacon.</string>
+
+
+    <string name="voice_recharging_alert">The cellular for automobiles should be always charged with cables.Please connect charge cable to cellular.</string>
+    <string name="voice_check_beacon">Please check the status of beacon No.%s. The status is not \'RUNNING\'.</string>
+
+
+    <string name="voice_check_signal_term">Checking frequency of beacon No.%s is longer than a minute. 5 minutes report may be accurate when maximum checking frequency is a minute.</string>
+
+    <string name="time_utils_something" formatted="false">%d hors,%d minutes,%d seconds</string>
+
+    <string name="title_for_upload_progress">Upload</string>
+    <string name="message_for_upload_progress">Upload images...</string>
+
+    <string name="job_select_title">Select task.</string>
+
+
+</resources>

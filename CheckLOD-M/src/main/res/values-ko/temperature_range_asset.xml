@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 내뷰 테스트용 -->
+    <string name="temperature_range_title">온도범위 설정</string>
+    <string-array name="temperature_range_asset">
+
+        <item>Frozon (-25℃ ~ -10℃),-25,-10</item>
+        <item>냉동 (-20℃ 이하),-1000,-20</item>
+        <item>냉동(-50℃ 이하),-1000,-50</item>
+        <item>냉동(-70℃ 이하),-1000,-70</item>
+        <item>Cold (2℃ ~ 8℃),2,8</item>
+        <item>Cool (8℃ ~ 15℃),8,15</item>
+        <item>CRT (20℃ ~ 25℃),20,25</item>
+        <item>전혈/적혈구 (1℃ ~ 6℃),1,6</item>
+        <item>혈소판 제제 (20℃ ~ 25℃),20,25</item>
+        <item>혈장 제제 (7℃ ~ 18℃),7,18</item>
+        <item>실온 (1℃ ~ 30℃),1,30</item>
+        <item>상온 (15℃ ~ 25℃),15,25</item>
+        <item>테스트 A (20℃ ~ 30℃),20,30</item>
+        <item>테스트 B (10℃ ~ 40℃),10,40</item>
+        <item>테스트 C (-5℃ ~ 15℃),-5,15</item>
+        <item>새기계 (-100℃ ~ 30℃),-100,30</item>
+
+    </string-array>
+
+</resources>

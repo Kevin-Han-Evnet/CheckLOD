@@ -1,0 +1,65 @@
+<resources>
+
+<string name="permission_request_javis">
+        음성으로 어플리케이션을 제어하기 위해 오디오 녹음 및 마이크에 대한 권힌이 필요합니다. 거부하시면 음성제어를 이용하실 수 없습니다. 계속 하시겠습니까?
+        해당 권한은 폰의 설정&gt;어플리케이션 설정&gt;체크로드&gt;권한 메뉴를 통해 다시 설정하실 수 있습니다.
+    </string>
+
+
+    <string name="toast_javis_permission">음성 제어 기능이 활성화 되었습니다.</string>
+
+    <string name="name_tag"> %s님</string>
+    <string name="vehicle_no">차량번호</string>
+    <string name="system_report">시스템 리포트</string>
+    <string name="label_remain">%s 남음</string>
+    <string name="label_used">%s 사용</string>
+    <string name="label_start_delivery">배송시작</string>
+
+    <string name="item_beacon_humidity_info">습도 : %s</string>
+
+    <string name="label_rdo_report_term_30sec">30초간격</string>
+    <string name="label_rdo_report_term_1min">1분간격</string>
+    <string name="label_rdo_report_term_5min">5분간격</string>
+    <string name="label_rdo_report_term_10min">10분간격</string>
+    <string name="label_rdo_report_term_15min">15분간격</string>
+    <string name="label_rdo_report_term_30min">30분간격</string>
+
+    <string name="label_for_graph_temp">온도추이</string>
+
+    <string name="report_timeformat_1">d일 -- HH시 mm분 ss초</string>
+    <string name="report_timeformat_2">MM월 dd일 -- HH시 mm분 ss초</string>
+    <string name="report_timeformat_3">MM월 dd일 -- HH시 mm분</string>
+
+    <string name="report_item_status_normal">정상</string>
+    <string name="report_item_status_reported">전송완료</string>
+    <string name="report_item_status_standby">전송대기</string>
+
+    <string name="label_photo_capture">탭하여 사진촬영</string>
+    <string name="label_send_all_photos">모든 항목 전송</string>
+
+    <string name="data_sync_connecting_beacon">%s번 비콘 연결중...</string>
+    <string name="data_sync_cant_connect_beacon">%s번 비콘연결이 불가능합니다.</string>
+    <string name="data_sync_connected_beacon">%s번 비콘이 연결되었습니다.</string>
+    <string name="data_sync_disconnected_beacon">%s번 비콘의 연결이 끊어졌습니다.</string>
+
+
+    <string name="item_bcn_check_to_start">시작 하려면 체크</string>
+
+
+
+    <string name="toast_beacon_sensor_removed">%s번 비콘의 센서가 분리되었습니다. 확인해 주세요.</string>
+    <string name="toast_beacon_low_battery">%s번 비콘의 배터리가 부족합니다. 충전해 주세요.</string>
+    <string name="toast_beacon_signal_wornning">%s번 비콘의 신호가 약합니다. 거리를 확인하세요.</string>
+
+    <string name="title_for_test_single_choice">디바이스 추가</string>
+    <array name="options_for_test_single_choice">
+        <item>하나의 비콘 추가</item>
+        <item>테스트용 비콘들 추가</item>
+    </array>
+
+    <string name="confirm_delete_all">모든 아이템을 삭제하시겠습니까?</string>
+
+    <string name="info_lock_cover">체크로드 어플리케이션이 로거의 온도를 수집중입니다. 화면을 끌수 없도록 현재 화면으로 보호합니다. 홈키를 누르거나 현재 화면을 길게 눌러 보호화면을 해제 할 수 있습니다.</string>
+
+</resources>
+

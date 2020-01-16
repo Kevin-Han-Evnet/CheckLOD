@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.jivimberg:autoresizetextview:0.0.2@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d9b48befa8905513e9e8de25d8830109/autoresizetextview-0.0.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d9b48befa8905513e9e8de25d8830109/autoresizetextview-0.0.2/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.jivimberg/autoresizetextview/0.0.2/caf70256bce4c87a30c9bdbf86226be9cb672323/autoresizetextview-0.0.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.jivimberg/autoresizetextview/0.0.2/fd0c2a579527144533e11ea2f14c7c30999c865a/autoresizetextview-0.0.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
