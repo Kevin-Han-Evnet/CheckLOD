@@ -1,0 +1,70 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="lib.netmania.ble.test" >
+4
+5    <uses-sdk
+5-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_ble/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger16036785297408097421.xml:5:5-74
+6        android:minSdkVersion="15"
+6-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_ble/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger16036785297408097421.xml:5:15-41
+7        android:targetSdkVersion="23" />
+7-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_ble/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger16036785297408097421.xml:5:42-71
+8
+9    <instrumentation
+9-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_ble/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger16036785297408097421.xml:11:5-15:71
+10        android:name="android.support.test.runner.AndroidJUnitRunner"
+10-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_ble/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger16036785297408097421.xml:11:22-83
+11        android:functionalTest="false"
+11-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_ble/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger16036785297408097421.xml:14:22-52
+12        android:handleProfiling="false"
+12-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_ble/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger16036785297408097421.xml:13:22-53
+13        android:label="Tests for lib.netmania.ble.test"
+13-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_ble/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger16036785297408097421.xml:15:22-69
+14        android:targetPackage="lib.netmania.ble.test" />
+14-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_ble/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger16036785297408097421.xml:12:22-67
+15
+16    <uses-permission android:name="android.permission.BLUETOOTH" />
+16-->[__tested_artifact__::nm_ble] /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_ble/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-68
+16-->[__tested_artifact__::nm_ble] /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_ble/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:22-65
+17    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+17-->[__tested_artifact__::nm_ble] /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_ble/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-74
+17-->[__tested_artifact__::nm_ble] /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_ble/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:22-71
+18    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+18-->[__tested_artifact__::nm_ble] /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_ble/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-81
+18-->[__tested_artifact__::nm_ble] /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_ble/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:22-78
+19    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+19-->[__tested_artifact__::nm_ble] /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_ble/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:5-79
+19-->[__tested_artifact__::nm_ble] /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_ble/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:22-76
+20
+21    <application
+21-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_ble/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger16036785297408097421.xml:7:5-9:19
+22        android:allowBackup="true"
+22-->[__tested_artifact__::nm_ble] /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_ble/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:9-35
+23        android:debuggable="true"
+23-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_ble/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger16036785297408097421.xml:7:18-43
+24        android:icon="@mipmap/ic_launcher"
+24-->[__tested_artifact__::nm_ble] /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_ble/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:9-43
+25        android:label="@string/app_name"
+25-->[__tested_artifact__::nm_ble] /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_ble/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:9-41
+26        android:supportsRtl="true"
+26-->[__tested_artifact__::nm_ble] /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_ble/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:9-35
+27        android:theme="@style/AppTheme" >
+27-->[__tested_artifact__::nm_ble] /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_ble/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:9-40
+28        <uses-library android:name="android.test.runner" />
+28-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_ble/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger16036785297408097421.xml:8:9-60
+28-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_ble/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger16036785297408097421.xml:8:23-57
+29
+30        <meta-data
+30-->[com.android.support:appcompat-v7:26.1.0] /Users/kevinhan/.gradle/caches/transforms-2/files-2.1/3a53e8aa473e9558f06228ac2bda96ea/appcompat-v7-26.1.0/AndroidManifest.xml:26:9-28:38
+31            android:name="android.support.VERSION"
+31-->[com.android.support:appcompat-v7:26.1.0] /Users/kevinhan/.gradle/caches/transforms-2/files-2.1/3a53e8aa473e9558f06228ac2bda96ea/appcompat-v7-26.1.0/AndroidManifest.xml:27:13-51
+32            android:value="26.1.0" />
+32-->[com.android.support:appcompat-v7:26.1.0] /Users/kevinhan/.gradle/caches/transforms-2/files-2.1/3a53e8aa473e9558f06228ac2bda96ea/appcompat-v7-26.1.0/AndroidManifest.xml:28:13-35
+33        <meta-data
+33-->[android.arch.lifecycle:runtime:1.0.0] /Users/kevinhan/.gradle/caches/transforms-2/files-2.1/b33a3d21dcb731cb3d6b5f8f9677d91e/runtime-1.0.0/AndroidManifest.xml:25:9-27:47
+34            android:name="android.arch.lifecycle.VERSION"
+34-->[android.arch.lifecycle:runtime:1.0.0] /Users/kevinhan/.gradle/caches/transforms-2/files-2.1/b33a3d21dcb731cb3d6b5f8f9677d91e/runtime-1.0.0/AndroidManifest.xml:26:13-58
+35            android:value="27.0.0-SNAPSHOT" />
+35-->[android.arch.lifecycle:runtime:1.0.0] /Users/kevinhan/.gradle/caches/transforms-2/files-2.1/b33a3d21dcb731cb3d6b5f8f9677d91e/runtime-1.0.0/AndroidManifest.xml:27:13-44
+36    </application>
+37
+38</manifest>

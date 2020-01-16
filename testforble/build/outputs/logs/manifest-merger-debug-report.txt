@@ -1,0 +1,236 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:1:1-69:12
+INJECTED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:1:1-69:12
+INJECTED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:1:1-69:12
+INJECTED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:1:1-69:12
+MERGED from [:datacontroller] /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/datacontroller/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-19:12
+MERGED from [:nm_ble] /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_ble/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-24:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/kevinhan/.gradle/caches/transforms-2/files-2.1/4754c10928dd2ca4b6d1284979529554/appcompat-v7-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/kevinhan/.gradle/caches/transforms-2/files-2.1/237b6fbf5d7c16482b1c4db1b0ed1f77/support-fragment-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/kevinhan/.gradle/caches/transforms-2/files-2.1/2b72262645987ed421f815ed9a8764df/animated-vector-drawable-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/kevinhan/.gradle/caches/transforms-2/files-2.1/2f3544946495813584b97dd199e740c9/support-core-ui-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/kevinhan/.gradle/caches/transforms-2/files-2.1/522aac65d1c4bdc233c0d85444d9d10c/support-core-utils-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/kevinhan/.gradle/caches/transforms-2/files-2.1/61133117f9773d8b4c4170c754f1fca8/support-vector-drawable-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /Users/kevinhan/.gradle/caches/transforms-2/files-2.1/98b5292d1a658b07fb265315dfa1addd/support-compat-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/kevinhan/.gradle/caches/transforms-2/files-2.1/7b21f2c098ad11f372a33b6a76d8ffae/livedata-core-1.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/kevinhan/.gradle/caches/transforms-2/files-2.1/a39385b91ee6cd20f8edf0404e85fb85/viewmodel-1.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/kevinhan/.gradle/caches/transforms-2/files-2.1/0027314b8ed9388ad6f2ec3236311a27/runtime-1.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /Users/kevinhan/.gradle/caches/transforms-2/files-2.1/193fa6dba03e0da7313467b8c4e4044f/runtime-1.1.0/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:1:1-69:12
+INJECTED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:1:1-69:12
+INJECTED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:1:1-69:12
+	package
+		ADDED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:3:5-37
+		INJECTED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml
+		INJECTED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml
+		ADDED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:1:1-69:12
+		INJECTED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:2:5-51
+	android:versionCode
+		INJECTED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml
+		ADDED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:1:1-69:12
+		INJECTED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.READ_PHONE_NUMBERS
+ADDED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:6:5-77
+	android:name
+		ADDED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:6:22-74
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:7:5-75
+	android:name
+		ADDED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:7:22-72
+uses-permission#android.permission.GET_TASKS
+ADDED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:8:5-68
+	android:name
+		ADDED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:8:22-65
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:9:5-66
+	android:name
+		ADDED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:9:22-63
+uses-permission#android.permission.BLUETOOTH
+ADDED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:10:5-68
+MERGED from [:nm_ble] /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_ble/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-68
+MERGED from [:nm_ble] /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_ble/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-68
+	android:name
+		ADDED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:10:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:11:5-74
+MERGED from [:nm_ble] /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_ble/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-74
+MERGED from [:nm_ble] /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_ble/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-74
+	android:name
+		ADDED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:11:22-71
+uses-permission#android.permission.INTERNET
+ADDED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:12:5-67
+	android:name
+		ADDED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:12:22-64
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:13:5-80
+MERGED from [:nm_ble] /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_ble/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-81
+MERGED from [:nm_ble] /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_ble/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-81
+	android:name
+		ADDED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:13:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:14:5-78
+MERGED from [:nm_ble] /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_ble/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:5-79
+MERGED from [:nm_ble] /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_ble/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:5-79
+	android:name
+		ADDED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:14:22-76
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:15:5-79
+	android:name
+		ADDED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:15:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:16:5-76
+	android:name
+		ADDED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:16:22-73
+uses-permission#android.permission.NFC
+ADDED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:17:5-61
+	android:name
+		ADDED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:17:22-59
+uses-permission#android.permission.DISABLE_KEYGUARD
+ADDED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:18:5-74
+	android:name
+		ADDED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:18:22-72
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:19:5-68
+	android:name
+		ADDED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:19:22-65
+uses-feature#android.hardware.bluetooth_le
+ADDED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:21:5-89
+	android:required
+		ADDED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:21:64-87
+	android:name
+		ADDED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:21:19-63
+application
+ADDED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:23:5-67:19
+MERGED from [:datacontroller] /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/datacontroller/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-17:19
+MERGED from [:datacontroller] /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/datacontroller/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-17:19
+MERGED from [:nm_ble] /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_ble/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:5-22:19
+MERGED from [:nm_ble] /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_ble/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:5-22:19
+	android:supportsRtl
+		ADDED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:29:9-35
+	android:label
+		ADDED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:26:9-41
+		REJECTED from [:datacontroller] /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/datacontroller/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:9-41
+		REJECTED from [:nm_ble] /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_ble/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:9-41
+	android:roundIcon
+		ADDED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:28:9-54
+	android:allowBackup
+		ADDED from [:datacontroller] /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/datacontroller/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-35
+	android:largeHeap
+		ADDED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:30:9-33
+	android:icon
+		ADDED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:27:9-43
+		REJECTED from [:datacontroller] /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/datacontroller/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:9-43
+		REJECTED from [:nm_ble] /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_ble/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:9-43
+	android:theme
+		ADDED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:31:9-40
+		REJECTED from [:datacontroller] /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/datacontroller/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-40
+		REJECTED from [:nm_ble] /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_ble/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:9-40
+	tools:replace
+		ADDED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:24:9-43
+	android:name
+		ADDED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:25:9-40
+service#com.example.testforble.service.SensingProcessService
+ADDED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:34:9-94
+	android:process
+		ADDED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:34:64-92
+	android:name
+		ADDED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:34:18-63
+receiver#com.example.testforble.service.SensingServiceMonitor$SensingServiceMonitorBR
+ADDED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:35:9-91
+	android:name
+		ADDED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:35:19-88
+activity#com.example.testforble.activities.ActvitySplash
+ADDED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:38:9-51:20
+	android:windowIsTranslucent
+		ADDED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:44:13-47
+	android:screenOrientation
+		ADDED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:42:13-49
+	android:clearTaskOnLaunch
+		ADDED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:40:13-45
+	android:label
+		ADDED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:41:13-45
+	android:noHistory
+		ADDED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:43:13-38
+	tools:targetApi
+		ADDED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:46:13-39
+	android:theme
+		ADDED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:45:13-81
+	android:name
+		ADDED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:39:13-53
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:47:13-50:29
+action#android.intent.action.MAIN
+ADDED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:48:17-69
+	android:name
+		ADDED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:48:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:49:17-77
+	android:name
+		ADDED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:49:27-74
+activity#com.example.testforble.activities.ActivityJobReport
+ADDED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:54:9-58:50
+	android:windowIsTranslucent
+		ADDED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:58:13-47
+	android:screenOrientation
+		ADDED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:57:13-49
+	android:label
+		ADDED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:56:13-45
+	android:name
+		ADDED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:55:13-57
+activity#com.example.testforble.activities.ActivitySystemLog
+ADDED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:61:9-65:50
+	android:windowIsTranslucent
+		ADDED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:65:13-47
+	android:screenOrientation
+		ADDED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:64:13-49
+	android:label
+		ADDED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:63:13-45
+	android:name
+		ADDED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:62:13-57
+uses-sdk
+INJECTED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml
+INJECTED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml
+MERGED from [:datacontroller] /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/datacontroller/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:datacontroller] /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/datacontroller/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:nm_ble] /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_ble/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:nm_ble] /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_ble/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/kevinhan/.gradle/caches/transforms-2/files-2.1/4754c10928dd2ca4b6d1284979529554/appcompat-v7-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/kevinhan/.gradle/caches/transforms-2/files-2.1/4754c10928dd2ca4b6d1284979529554/appcompat-v7-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/kevinhan/.gradle/caches/transforms-2/files-2.1/237b6fbf5d7c16482b1c4db1b0ed1f77/support-fragment-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/kevinhan/.gradle/caches/transforms-2/files-2.1/237b6fbf5d7c16482b1c4db1b0ed1f77/support-fragment-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/kevinhan/.gradle/caches/transforms-2/files-2.1/2b72262645987ed421f815ed9a8764df/animated-vector-drawable-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/kevinhan/.gradle/caches/transforms-2/files-2.1/2b72262645987ed421f815ed9a8764df/animated-vector-drawable-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/kevinhan/.gradle/caches/transforms-2/files-2.1/2f3544946495813584b97dd199e740c9/support-core-ui-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/kevinhan/.gradle/caches/transforms-2/files-2.1/2f3544946495813584b97dd199e740c9/support-core-ui-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/kevinhan/.gradle/caches/transforms-2/files-2.1/522aac65d1c4bdc233c0d85444d9d10c/support-core-utils-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/kevinhan/.gradle/caches/transforms-2/files-2.1/522aac65d1c4bdc233c0d85444d9d10c/support-core-utils-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/kevinhan/.gradle/caches/transforms-2/files-2.1/61133117f9773d8b4c4170c754f1fca8/support-vector-drawable-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/kevinhan/.gradle/caches/transforms-2/files-2.1/61133117f9773d8b4c4170c754f1fca8/support-vector-drawable-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/kevinhan/.gradle/caches/transforms-2/files-2.1/98b5292d1a658b07fb265315dfa1addd/support-compat-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/kevinhan/.gradle/caches/transforms-2/files-2.1/98b5292d1a658b07fb265315dfa1addd/support-compat-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/kevinhan/.gradle/caches/transforms-2/files-2.1/7b21f2c098ad11f372a33b6a76d8ffae/livedata-core-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/kevinhan/.gradle/caches/transforms-2/files-2.1/7b21f2c098ad11f372a33b6a76d8ffae/livedata-core-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/kevinhan/.gradle/caches/transforms-2/files-2.1/a39385b91ee6cd20f8edf0404e85fb85/viewmodel-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/kevinhan/.gradle/caches/transforms-2/files-2.1/a39385b91ee6cd20f8edf0404e85fb85/viewmodel-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/kevinhan/.gradle/caches/transforms-2/files-2.1/0027314b8ed9388ad6f2ec3236311a27/runtime-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/kevinhan/.gradle/caches/transforms-2/files-2.1/0027314b8ed9388ad6f2ec3236311a27/runtime-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/kevinhan/.gradle/caches/transforms-2/files-2.1/193fa6dba03e0da7313467b8c4e4044f/runtime-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/kevinhan/.gradle/caches/transforms-2/files-2.1/193fa6dba03e0da7313467b8c4e4044f/runtime-1.1.0/AndroidManifest.xml:20:5-44
+INJECTED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml
+INJECTED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml
+		ADDED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml
+		INJECTED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml
+		ADDED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml
+		INJECTED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml

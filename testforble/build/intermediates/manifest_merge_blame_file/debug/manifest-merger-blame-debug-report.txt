@@ -1,0 +1,148 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.testforble"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="18"
+8-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="26" />
+9-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml
+10
+11    <!-- 권한설정 참조 : http://gun0912.tistory.com/55 -->
+12    <uses-permission android:name="android.permission.READ_PHONE_NUMBERS" />
+12-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:6:5-77
+12-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:6:22-74
+13    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+13-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:7:5-75
+13-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:7:22-72
+14    <uses-permission android:name="android.permission.GET_TASKS" />
+14-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:8:5-68
+14-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:8:22-65
+15    <uses-permission android:name="android.permission.VIBRATE" />
+15-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:9:5-66
+15-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:9:22-63
+16    <uses-permission android:name="android.permission.BLUETOOTH" />
+16-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:10:5-68
+16-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:10:22-65
+17    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+17-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:11:5-74
+17-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:11:22-71
+18    <uses-permission android:name="android.permission.INTERNET" />
+18-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:12:5-67
+18-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:12:22-64
+19    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+19-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:13:5-80
+19-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:13:22-78
+20    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+20-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:14:5-78
+20-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:14:22-76
+21    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+21-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:15:5-79
+21-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:15:22-76
+22    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+22-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:16:5-76
+22-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:16:22-73
+23    <uses-permission android:name="android.permission.NFC" />
+23-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:17:5-61
+23-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:17:22-59
+24    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+24-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:18:5-74
+24-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:18:22-72
+25    <uses-permission android:name="android.permission.WAKE_LOCK" />
+25-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:19:5-68
+25-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:19:22-65
+26
+27    <uses-feature
+27-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:21:5-89
+28        android:name="android.hardware.bluetooth_le"
+28-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:21:19-63
+29        android:required="true" />
+29-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:21:64-87
+30
+31    <application
+31-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:23:5-67:19
+32        android:name="com.example.testforble.BaseApplication"
+32-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:25:9-40
+33        android:allowBackup="true"
+33-->[:datacontroller] /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/datacontroller/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-35
+34        android:debuggable="true"
+35        android:icon="@mipmap/ic_launcher"
+35-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:27:9-43
+36        android:label="@string/app_name"
+36-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:26:9-41
+37        android:largeHeap="true"
+37-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:30:9-33
+38        android:roundIcon="@mipmap/ic_launcher_round"
+38-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:28:9-54
+39        android:supportsRtl="true"
+39-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:29:9-35
+40        android:theme="@style/AppTheme" >
+40-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:31:9-40
+41        <service
+41-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:34:9-94
+42            android:name="com.example.testforble.service.SensingProcessService"
+42-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:34:18-63
+43            android:process=":m_sensing" />
+43-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:34:64-92
+44
+45        <receiver android:name="com.example.testforble.service.SensingServiceMonitor$SensingServiceMonitorBR" />
+45-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:35:9-91
+45-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:35:19-88
+46
+47        <!-- ###### 스플래시 화면 ###### -->
+48        <activity
+48-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:38:9-51:20
+49            android:name="com.example.testforble.activities.ActvitySplash"
+49-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:39:13-53
+50            android:clearTaskOnLaunch="true"
+50-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:40:13-45
+51            android:label="@string/app_name"
+51-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:41:13-45
+52            android:noHistory="false"
+52-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:43:13-38
+53            android:screenOrientation="portrait"
+53-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:42:13-49
+54            android:theme="@android:style/Theme.Material.NoActionBar.Fullscreen"
+54-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:45:13-81
+55            android:windowIsTranslucent="true" >
+55-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:44:13-47
+56            <intent-filter>
+56-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:47:13-50:29
+57                <action android:name="android.intent.action.MAIN" />
+57-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:48:17-69
+57-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:48:25-66
+58
+59                <category android:name="android.intent.category.LAUNCHER" />
+59-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:49:17-77
+59-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:49:27-74
+60            </intent-filter>
+61        </activity>
+62
+63        <!-- ###### 보고 화면 ###### -->
+64        <activity
+64-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:54:9-58:50
+65            android:name="com.example.testforble.activities.ActivityJobReport"
+65-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:55:13-57
+66            android:label="@string/app_name"
+66-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:56:13-45
+67            android:screenOrientation="portrait"
+67-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:57:13-49
+68            android:windowIsTranslucent="true" />
+68-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:58:13-47
+69
+70        <!-- ###### 시스템 로그 화면 ###### -->
+71        <activity
+71-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:61:9-65:50
+72            android:name="com.example.testforble.activities.ActivitySystemLog"
+72-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:62:13-57
+73            android:label="@string/app_name"
+73-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:63:13-45
+74            android:screenOrientation="portrait"
+74-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:64:13-49
+75            android:windowIsTranslucent="true" />
+75-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/testforble/src/main/AndroidManifest.xml:65:13-47
+76    </application>
+77
+78</manifest>

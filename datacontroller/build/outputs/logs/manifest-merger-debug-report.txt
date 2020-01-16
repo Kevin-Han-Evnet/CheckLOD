@@ -1,0 +1,49 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/datacontroller/src/main/AndroidManifest.xml:1:1-13:12
+INJECTED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/datacontroller/src/main/AndroidManifest.xml:1:1-13:12
+INJECTED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/datacontroller/src/main/AndroidManifest.xml:1:1-13:12
+INJECTED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/datacontroller/src/main/AndroidManifest.xml:1:1-13:12
+INJECTED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/datacontroller/src/main/AndroidManifest.xml:1:1-13:12
+INJECTED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/datacontroller/src/main/AndroidManifest.xml:1:1-13:12
+INJECTED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/datacontroller/src/main/AndroidManifest.xml:1:1-13:12
+	package
+		ADDED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/datacontroller/src/main/AndroidManifest.xml:2:5-32
+		INJECTED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/datacontroller/src/main/AndroidManifest.xml
+		INJECTED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/datacontroller/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/datacontroller/src/main/AndroidManifest.xml
+		ADDED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/datacontroller/src/main/AndroidManifest.xml:1:1-13:12
+		INJECTED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/datacontroller/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/datacontroller/src/main/AndroidManifest.xml
+		ADDED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/datacontroller/src/main/AndroidManifest.xml:1:1-13:12
+		INJECTED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/datacontroller/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/datacontroller/src/main/AndroidManifest.xml:1:11-69
+application
+ADDED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/datacontroller/src/main/AndroidManifest.xml:4:5-11:19
+	android:supportsRtl
+		ADDED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/datacontroller/src/main/AndroidManifest.xml:8:9-35
+	android:label
+		ADDED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/datacontroller/src/main/AndroidManifest.xml:7:9-41
+	android:icon
+		ADDED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/datacontroller/src/main/AndroidManifest.xml:6:9-43
+	android:allowBackup
+		ADDED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/datacontroller/src/main/AndroidManifest.xml:5:9-35
+	android:theme
+		ADDED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/datacontroller/src/main/AndroidManifest.xml:9:9-40
+uses-sdk
+INJECTED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/datacontroller/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/datacontroller/src/main/AndroidManifest.xml
+INJECTED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/datacontroller/src/main/AndroidManifest.xml
+INJECTED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/datacontroller/src/main/AndroidManifest.xml
+INJECTED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/datacontroller/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/datacontroller/src/main/AndroidManifest.xml
+		ADDED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/datacontroller/src/main/AndroidManifest.xml
+		INJECTED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/datacontroller/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/datacontroller/src/main/AndroidManifest.xml
+		ADDED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/datacontroller/src/main/AndroidManifest.xml
+		INJECTED from /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/datacontroller/src/main/AndroidManifest.xml

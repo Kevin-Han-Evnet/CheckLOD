@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.testforble"
+    android:targetSandboxVersion="2"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="18"
+        android:targetSdkVersion="26" />
+
+    <!-- 권한설정 참조 : http://gun0912.tistory.com/55 -->
+    <uses-permission android:name="android.permission.READ_PHONE_NUMBERS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.NFC" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <uses-feature
+        android:name="android.hardware.bluetooth_le"
+        android:required="true" />
+
+    <application
+        android:name="com.example.testforble.BaseApplication"
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <service
+            android:name="com.example.testforble.service.SensingProcessService"
+            android:process=":m_sensing" />
+
+        <receiver android:name="com.example.testforble.service.SensingServiceMonitor$SensingServiceMonitorBR" />
+
+        <!-- ###### 스플래시 화면 ###### -->
+        <activity
+            android:name="com.example.testforble.activities.ActvitySplash"
+            android:clearTaskOnLaunch="true"
+            android:label="@string/app_name"
+            android:noHistory="false"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Material.NoActionBar.Fullscreen"
+            android:windowIsTranslucent="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- ###### 보고 화면 ###### -->
+        <activity
+            android:name="com.example.testforble.activities.ActivityJobReport"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowIsTranslucent="true" />
+
+        <!-- ###### 시스템 로그 화면 ###### -->
+        <activity
+            android:name="com.example.testforble.activities.ActivitySystemLog"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowIsTranslucent="true" />
+    </application>
+
+</manifest>

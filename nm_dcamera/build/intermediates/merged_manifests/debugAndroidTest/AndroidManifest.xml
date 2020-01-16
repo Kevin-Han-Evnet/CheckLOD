@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="lib.netmania.dcamera.test" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="23" />
+
+    <instrumentation
+        android:name="android.support.test.runner.AndroidJUnitRunner"
+        android:functionalTest="false"
+        android:handleProfiling="false"
+        android:label="Tests for lib.netmania.dcamera.test"
+        android:targetPackage="lib.netmania.dcamera.test" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" /> <!-- DCamera 관련 화면 -->
+    <activity
+        android:name="lib.netmania.dcamera.Bridge"
+        android:configChanges="orientation|screenSize"
+        android:label="@string/app_name"
+        android:screenOrientation="portrait" >
+    </activity>
+    <activity
+        android:name="lib.netmania.dcamera.DCrop"
+        android:label="@string/app_name"
+        android:screenOrientation="portrait"
+        android:theme="@android:style/Theme.Holo.NoActionBar" >
+    </activity>
+    <activity android:name="lib.netmania.dcamera.gallery.GalleryChildActivity" />
+    <activity android:name="lib.netmania.dcamera.gallery.DGallery" />
+    <activity android:name="lib.netmania.dcamera.gallery.PreviewActivity" />
+    <activity
+        android:name="lib.netmania.dcamera.photo_slider.ActivityPhotoSlider"
+        android:label="@string/app_name"
+        android:screenOrientation="portrait"
+        android:windowIsTranslucent="true" />
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:hardwareAccelerated="true" >
+        <uses-library android:name="android.test.runner" />
+    </application>
+
+</manifest>

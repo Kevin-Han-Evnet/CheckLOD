@@ -1,0 +1,96 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="lib.netmania.dcamera.test" >
+4
+5    <uses-sdk
+5-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_dcamera/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger1065964016942379363.xml:5:5-74
+6        android:minSdkVersion="15"
+6-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_dcamera/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger1065964016942379363.xml:5:15-41
+7        android:targetSdkVersion="23" />
+7-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_dcamera/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger1065964016942379363.xml:5:42-71
+8
+9    <instrumentation
+9-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_dcamera/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger1065964016942379363.xml:11:5-15:75
+10        android:name="android.support.test.runner.AndroidJUnitRunner"
+10-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_dcamera/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger1065964016942379363.xml:11:22-83
+11        android:functionalTest="false"
+11-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_dcamera/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger1065964016942379363.xml:14:22-52
+12        android:handleProfiling="false"
+12-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_dcamera/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger1065964016942379363.xml:13:22-53
+13        android:label="Tests for lib.netmania.dcamera.test"
+13-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_dcamera/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger1065964016942379363.xml:15:22-73
+14        android:targetPackage="lib.netmania.dcamera.test" />
+14-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_dcamera/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger1065964016942379363.xml:12:22-71
+15
+16    <uses-permission android:name="android.permission.CAMERA" />
+16-->[__tested_artifact__::nm_dcamera] /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_dcamera/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-65
+16-->[__tested_artifact__::nm_dcamera] /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_dcamera/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:22-62
+17    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+17-->[__tested_artifact__::nm_dcamera] /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_dcamera/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-80
+17-->[__tested_artifact__::nm_dcamera] /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_dcamera/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:22-77
+18    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+18-->[__tested_artifact__::nm_dcamera] /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_dcamera/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-81
+18-->[__tested_artifact__::nm_dcamera] /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_dcamera/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:22-78
+19
+20    <uses-feature android:name="android.hardware.camera" />
+20-->[__tested_artifact__::nm_dcamera] /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_dcamera/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-60
+20-->[__tested_artifact__::nm_dcamera] /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_dcamera/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:19-57
+21    <uses-feature android:name="android.hardware.camera.autofocus" /> <!-- DCamera 관련 화면 -->
+21-->[__tested_artifact__::nm_dcamera] /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_dcamera/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:5-70
+21-->[__tested_artifact__::nm_dcamera] /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_dcamera/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:19-67
+22    <activity
+22-->[__tested_artifact__::nm_dcamera] /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_dcamera/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:5-24:16
+23        android:name="lib.netmania.dcamera.Bridge"
+23-->[__tested_artifact__::nm_dcamera] /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_dcamera/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:9-51
+24        android:configChanges="orientation|screenSize"
+24-->[__tested_artifact__::nm_dcamera] /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_dcamera/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:9-55
+25        android:label="@string/app_name"
+25-->[__tested_artifact__::nm_dcamera] /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_dcamera/build/intermediates/library_manifest/debug/AndroidManifest.xml:22:9-41
+26        android:screenOrientation="portrait" >
+26-->[__tested_artifact__::nm_dcamera] /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_dcamera/build/intermediates/library_manifest/debug/AndroidManifest.xml:23:9-45
+27    </activity>
+28    <activity
+28-->[__tested_artifact__::nm_dcamera] /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_dcamera/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:5-30:16
+29        android:name="lib.netmania.dcamera.DCrop"
+29-->[__tested_artifact__::nm_dcamera] /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_dcamera/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:9-50
+30        android:label="@string/app_name"
+30-->[__tested_artifact__::nm_dcamera] /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_dcamera/build/intermediates/library_manifest/debug/AndroidManifest.xml:27:9-41
+31        android:screenOrientation="portrait"
+31-->[__tested_artifact__::nm_dcamera] /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_dcamera/build/intermediates/library_manifest/debug/AndroidManifest.xml:28:9-45
+32        android:theme="@android:style/Theme.Holo.NoActionBar" >
+32-->[__tested_artifact__::nm_dcamera] /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_dcamera/build/intermediates/library_manifest/debug/AndroidManifest.xml:29:9-62
+33    </activity>
+34    <activity android:name="lib.netmania.dcamera.gallery.GalleryChildActivity" />
+34-->[__tested_artifact__::nm_dcamera] /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_dcamera/build/intermediates/library_manifest/debug/AndroidManifest.xml:31:5-82
+34-->[__tested_artifact__::nm_dcamera] /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_dcamera/build/intermediates/library_manifest/debug/AndroidManifest.xml:31:15-79
+35    <activity android:name="lib.netmania.dcamera.gallery.DGallery" />
+35-->[__tested_artifact__::nm_dcamera] /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_dcamera/build/intermediates/library_manifest/debug/AndroidManifest.xml:32:5-70
+35-->[__tested_artifact__::nm_dcamera] /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_dcamera/build/intermediates/library_manifest/debug/AndroidManifest.xml:32:15-67
+36    <activity android:name="lib.netmania.dcamera.gallery.PreviewActivity" />
+36-->[__tested_artifact__::nm_dcamera] /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_dcamera/build/intermediates/library_manifest/debug/AndroidManifest.xml:33:5-77
+36-->[__tested_artifact__::nm_dcamera] /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_dcamera/build/intermediates/library_manifest/debug/AndroidManifest.xml:33:15-74
+37    <activity
+37-->[__tested_artifact__::nm_dcamera] /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_dcamera/build/intermediates/library_manifest/debug/AndroidManifest.xml:34:5-38:46
+38        android:name="lib.netmania.dcamera.photo_slider.ActivityPhotoSlider"
+38-->[__tested_artifact__::nm_dcamera] /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_dcamera/build/intermediates/library_manifest/debug/AndroidManifest.xml:35:9-77
+39        android:label="@string/app_name"
+39-->[__tested_artifact__::nm_dcamera] /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_dcamera/build/intermediates/library_manifest/debug/AndroidManifest.xml:36:9-41
+40        android:screenOrientation="portrait"
+40-->[__tested_artifact__::nm_dcamera] /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_dcamera/build/intermediates/library_manifest/debug/AndroidManifest.xml:37:9-45
+41        android:windowIsTranslucent="true" />
+41-->[__tested_artifact__::nm_dcamera] /Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_dcamera/build/intermediates/library_manifest/debug/AndroidManifest.xml:38:9-43
+42
+43    <application
+43-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_dcamera/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger1065964016942379363.xml:7:5-9:19
+44        android:allowBackup="true"
+44-->[com.github.chrisbanes.photoview:library:1.2.3] /Users/kevinhan/.gradle/caches/transforms-2/files-2.1/7eb9f2afcda00dd5359590d32155e88d/library-1.2.3/AndroidManifest.xml:4:18-44
+45        android:debuggable="true"
+45-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_dcamera/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger1065964016942379363.xml:7:18-43
+46        android:hardwareAccelerated="true" >
+46-->[com.github.chrisbanes.photoview:library:1.2.3] /Users/kevinhan/.gradle/caches/transforms-2/files-2.1/7eb9f2afcda00dd5359590d32155e88d/library-1.2.3/AndroidManifest.xml:4:45-79
+47        <uses-library android:name="android.test.runner" />
+47-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_dcamera/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger1065964016942379363.xml:8:9-60
+47-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_dcamera/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger1065964016942379363.xml:8:23-57
+48    </application>
+49
+50</manifest>

@@ -1,0 +1,74 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="lib.netmania.dcamera"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+7-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_dcamera/src/main/AndroidManifest.xml:6:5-47
+8        android:minSdkVersion="15"
+8-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_dcamera/src/main/AndroidManifest.xml:6:5-47
+9        android:targetSdkVersion="23" />
+9-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_dcamera/src/main/AndroidManifest.xml:6:15-44
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_dcamera/src/main/AndroidManifest.xml:8:5-65
+11-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_dcamera/src/main/AndroidManifest.xml:8:22-62
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_dcamera/src/main/AndroidManifest.xml:9:5-80
+12-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_dcamera/src/main/AndroidManifest.xml:9:22-77
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_dcamera/src/main/AndroidManifest.xml:10:5-81
+13-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_dcamera/src/main/AndroidManifest.xml:10:22-78
+14
+15    <uses-feature android:name="android.hardware.camera" />
+15-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_dcamera/src/main/AndroidManifest.xml:12:5-60
+15-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_dcamera/src/main/AndroidManifest.xml:12:19-57
+16    <uses-feature android:name="android.hardware.camera.autofocus" />
+16-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_dcamera/src/main/AndroidManifest.xml:13:5-70
+16-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_dcamera/src/main/AndroidManifest.xml:13:19-67
+17
+18    <!-- DCamera 관련 화면 -->
+19    <activity
+19-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_dcamera/src/main/AndroidManifest.xml:17:5-22:16
+20        android:name="lib.netmania.dcamera.Bridge"
+20-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_dcamera/src/main/AndroidManifest.xml:18:9-51
+21        android:configChanges="orientation|screenSize"
+21-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_dcamera/src/main/AndroidManifest.xml:21:9-55
+22        android:label="@string/app_name"
+22-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_dcamera/src/main/AndroidManifest.xml:19:9-41
+23        android:screenOrientation="portrait" >
+23-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_dcamera/src/main/AndroidManifest.xml:20:9-45
+24    </activity>
+25    <activity
+25-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_dcamera/src/main/AndroidManifest.xml:23:5-28:16
+26        android:name="lib.netmania.dcamera.DCrop"
+26-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_dcamera/src/main/AndroidManifest.xml:24:9-50
+27        android:label="@string/app_name"
+27-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_dcamera/src/main/AndroidManifest.xml:25:9-41
+28        android:screenOrientation="portrait"
+28-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_dcamera/src/main/AndroidManifest.xml:26:9-45
+29        android:theme="@android:style/Theme.Holo.NoActionBar" >
+29-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_dcamera/src/main/AndroidManifest.xml:27:9-62
+30    </activity>
+31    <activity android:name="lib.netmania.dcamera.gallery.GalleryChildActivity" />
+31-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_dcamera/src/main/AndroidManifest.xml:29:5-82
+31-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_dcamera/src/main/AndroidManifest.xml:29:15-79
+32    <activity android:name="lib.netmania.dcamera.gallery.DGallery" />
+32-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_dcamera/src/main/AndroidManifest.xml:30:5-70
+32-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_dcamera/src/main/AndroidManifest.xml:30:15-67
+33    <activity android:name="lib.netmania.dcamera.gallery.PreviewActivity" />
+33-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_dcamera/src/main/AndroidManifest.xml:31:5-77
+33-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_dcamera/src/main/AndroidManifest.xml:31:15-74
+34    <activity
+34-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_dcamera/src/main/AndroidManifest.xml:32:5-36:45
+35        android:name="lib.netmania.dcamera.photo_slider.ActivityPhotoSlider"
+35-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_dcamera/src/main/AndroidManifest.xml:33:9-77
+36        android:label="@string/app_name"
+36-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_dcamera/src/main/AndroidManifest.xml:34:9-41
+37        android:screenOrientation="portrait"
+37-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_dcamera/src/main/AndroidManifest.xml:35:9-45
+38        android:windowIsTranslucent="true" />
+38-->/Users/kevinhan/Documents/01.WORKS/01.NETMANIA/00.CheckLod-M/CheckLOD-Mobile(Android)-R9/CheckLOD-R9/nm_dcamera/src/main/AndroidManifest.xml:36:9-43
+39
+40</manifest>
